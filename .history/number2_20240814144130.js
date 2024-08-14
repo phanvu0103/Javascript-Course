@@ -78,5 +78,5 @@ console.log(isNaN("123")); // trả về false
 
 //  Number.isNaN (Number.isNaN(Value)) --> Number.isNaN
 console.log(Number.isNaN("this is a string")); // trả về false
-console.log(Number.isNaN("123456789")); //trả về false
-console.log(Number.isNaN(NaN)); // trả về true
+console.log(Number.isNaN("123456789"));trả về false
+console.log(Number.isNaN(NaN));

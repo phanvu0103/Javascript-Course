@@ -70,13 +70,4 @@ console.log(Math.min(1, 2, 3, 999));
 // Math.pow(number1, number2); Math.pow(3, 2); --> 3^2 (3 mũ 2) --> 9
 console.log(Math.pow(3, 2));
 
-// *** Bài 15: Tìm hiểu kiểu dữ liệu number phần 2 ***
-
-//  isNaN ( isNaN(Value)) -->> NaN: Not a Number ( ko phải số, trả true và false )
-console.log(isNaN("this is a string")); // trả về true
-console.log(isNaN("123")); // trả về false
-
-//  Number.isNaN (Number.isNaN(Value)) --> Number.isNaN
-console.log(Number.isNaN("this is a string")); // trả về false
-console.log(Number.isNaN("123456789")); //trả về false
-console.log(Number.isNaN(NaN)); // trả về true
+// *** Bài 15: Tìm hiểu kiểu dữ liệu number phần 2 ***Khoá học Javascript từ cơ bản đến nâng cao dành cho người mới

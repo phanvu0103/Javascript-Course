@@ -72,11 +72,6 @@ console.log(Math.pow(3, 2));
 
 // *** Bài 15: Tìm hiểu kiểu dữ liệu number phần 2 ***
 
-//  isNaN ( isNaN(Value)) -->> NaN: Not a Number ( ko phải số, trả true và false )
-console.log(isNaN("this is a string")); // trả về true
-console.log(isNaN("123")); // trả về false
+//  isNaN  -->> NaN: Not a Number ( ko)
 
-//  Number.isNaN (Number.isNaN(Value)) --> Number.isNaN
-console.log(Number.isNaN("this is a string")); // trả về false
-console.log(Number.isNaN("123456789")); //trả về false
-console.log(Number.isNaN(NaN)); // trả về true
+//  Number.isNaN
