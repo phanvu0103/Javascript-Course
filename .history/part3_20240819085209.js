@@ -20,5 +20,4 @@ console.log(String(4.5)); // --> 4.5
 console.log(String(null)); // --> null
 console.log(String(undefined)); // --> undefined
 console.log(String(true)); // --> true
-console.log(String(false)); // --> false
-console.log(String(Nan)); // --> NaN
+console.log(String(false)); // --> 

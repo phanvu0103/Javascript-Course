@@ -16,9 +16,4 @@ console.log(Number("")); // --> 0
 console.log(Number(NaN)); // NaN
 
 // String(Value)
-console.log(String(4.5)); // --> 4.5
-console.log(String(null)); // --> null
-console.log(String(undefined)); // --> undefined
-console.log(String(true)); // --> true
-console.log(String(false)); // --> false
-console.log(String(Nan)); // --> NaN
+console.<div className="w-10 h-10 border-4 border-blue-500 rounded-full animate-spin border-t-transparent"></div>
