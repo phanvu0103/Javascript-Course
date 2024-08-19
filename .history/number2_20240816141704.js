@@ -81,4 +81,4 @@ console.log(Number.isNaN("this is a string")); // trả về false
 console.log(Number.isNaN("123456789")); //trả về false
 console.log(Number.isNaN(NaN)); // trả về true
 
-//  *** Bài 16: Tìm hiểu kiểu dữ liệu khác ***
+//  

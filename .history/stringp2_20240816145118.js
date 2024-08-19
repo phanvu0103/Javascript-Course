@@ -117,4 +117,4 @@ console.log(myStr.substr(1, 5)); // ra ronte
 // substring(start index, end index)
 console.log(myStr.substring(1, 5)); // ra ront
 
-// **** Bài 13: Sử dụng nhiều phương thức của string cùng lúc
+//  Bài 13: Sử dụng nhiều phương thức của string cùng lúc

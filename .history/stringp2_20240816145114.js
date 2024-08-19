@@ -107,7 +107,7 @@ console.log(myStr.trimStart()); // remove space lest  (xóa khoảng trống bê
 console.log(myStr.charAt());
 console.log(myStr.charAt(2));
 
-// **** Bài 12: Phân biệt substr và substring -- https://www.w3schools.com/jsref/jsref_substr.asp
+// **Bài 12: Phân biệt substr và substring -- https://www.w3schools.com/jsref/jsref_substr.asp
 
 // -- substr --> Lấy ra 1 phần của chuỗi (string)
 // substr(index, lenght) --> Index: vị trí, Lenght: số lượng ký tự bạn muons lấy
@@ -117,4 +117,4 @@ console.log(myStr.substr(1, 5)); // ra ronte
 // substring(start index, end index)
 console.log(myStr.substring(1, 5)); // ra ront
 
-// **** Bài 13: Sử dụng nhiều phương thức của string cùng lúc
+// Bài 13: Sử dụng nhiều phương thức của string cùng lúc
