@@ -104,7 +104,4 @@ console.log(10 === "10"); // ==> false
 console.log(10 !== "10"); // ==> (! == -> !==)true
 
 // ==
-console.log(true == "true"); // ==> false
-console.log(true === "true"); // ==> false
-
-// *** Bài 24: Câu điều kiện cơ bản ***
+console.log(true)

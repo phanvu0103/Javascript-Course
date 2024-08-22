@@ -80,6 +80,7 @@ console.log(5 > 7 || 8 > 3); // ==> true ( false || true)
 // true || false ==> true
 // true || true ==> true
 
+
 // Boolean  !
 const amIWrong = false;
 console.log(!amIWrong); // ==> true (phủ định ngược lại)
@@ -87,24 +88,4 @@ const amIWrongs = true;
 console.log(!amIWrongs); // ==> false
 
 // *** Bài 23: So sánh == vs === ***
-// == loose equality vs === strict equality
-console.log("=== vs ==");
-// ==>  == loose equality
-
-console.log(10 == 10); // ==> true
-console.log(10 == "10"); // ==> true ("10 == "10)
-console.log(true == 1); // ==> true (Number(true) = 1) -> 1 = 1
-console.log(1 == "0.1"); // ==> true (Number("01") = 1) -> 1 = 1
-console.log(null == ""); // ==> false -> ("null" =/= "")
-
-// ==> === strict equality ( khuyến khích dùng 3 dấu bằng ===)
-console.log(typeof 10); // ==> Number
-console.log(typeof "10"); // ==> string
-console.log(10 === "10"); // ==> false
-console.log(10 !== "10"); // ==> (! == -> !==)true
-
-// ==
-console.log(true == "true"); // ==> false
-console.log(true === "true"); // ==> false
-
-// *** Bài 24: Câu điều kiện cơ bản ***
+// == loose equa
