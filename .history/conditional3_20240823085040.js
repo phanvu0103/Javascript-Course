@@ -61,8 +61,8 @@ if (!isRichs) {
 // console.log(youName);
 
 // *** confirm (xác nhận đúng hay sai) ***
-const isYouMoney = confirm("Đây có phải tiền của bạn hay không");
-console.log(isYouMoney); // ==> bấm ok thì in ra true, còn bấm canel thì in ra false
+// const isYouMoney = confirm("Đây có phải tiền của bạn hay không");
+// console.log(isYouMoney); // ==> bấm ok thì in ra true, còn bấm canel thì in ra false
 
 // const 1abc = "bay", ==> ko đặt số trước biến khai
 // const abc-xyz = "buom"; ==> ko đc đặt dấu - vào trong biến
@@ -123,12 +123,14 @@ console.log(isYouMoney); // ==> bấm ok thì in ra true, còn bấm canel thì 
 
 // Bài 1: Nhập vào số tuổi và kiển tra số tuổi lớn hơn hawocj bằng 18 tuổi thì được coi phim rạp và ngược lại thì không được vô coi phim
 
-const youAge = prompt("vui lòng nhập số tuổi của bạn", "");
-console.log(typeof youAge); // ==> check typeof string
-let message = "";
-if (Number(youAge) >= 18) {
-    message = "Bạn có thể vào rạp xem phim";
-} else {
-    message = "Xin lỗi bạn chưa đủ tuổi vào rạp";
-}
-alert(message);
+// const youAge = prompt("vui lòng nhập số tuổi của bạn", "");
+// console.log(typeof youAge); // ==> check typeof string
+// let message = "";
+// if (Number(youAge) >= 18) {
+//     message = "Bạn có thể vào rạp xem phim";
+// } else {
+//     message = "Xin lỗi bạn chưa đủ tuổi vào rạp";
+// }
+// alert(message);
+
+// Bài 1:
