@@ -91,7 +91,5 @@ logName(); // ==> gọi biến ==> ko bị hoisting
 // Invoked (Được gọi)
 // Function (Chức năng)
 // Execution (Thực hiện)
-// Đây là IIFE (that is IIFE)
-(function () {
-    console.log("this is IIFE function"); // ==> kết quả: this is IIFE function
-})();
+
+(function)(){}

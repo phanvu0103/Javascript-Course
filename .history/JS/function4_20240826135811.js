@@ -27,7 +27,7 @@ console.log(sum(5, 10)); // ==> kết quả 5 + 10 = 15
 
 // *** function ***
 // Thường là khai báo trước ==> mới gọi thì mới có kết quả
-// function thì có thể goi trước ==> khai báo cũng được vì nó hiểu và sẽ tự động đưa khai báo lên. ko bị hoisting.
+// function thì có thể goi trước ==> khai báo cũng được vì nó hiểu và sẽ tự động đưa khai báo lên.
 
 function sum(c = 10, d = 50) {
     //nếu khai báo c mà ko khai báo d thì kết quả => NaN
@@ -50,7 +50,6 @@ console.log(sum(50, 100));
 
 //            *** *** *** *** *** ***
 // *** Bài 30: Function cơ bản cho người mới Phần 2 ***
-// *** Function declarationc: có Khai báo vào có tên ***
 // ***Tham số là function***
 // Lưu function vào 1 biến rồi gọi sau
 function add(a = 0, b = 0) {
@@ -76,22 +75,4 @@ console.log(`result ${result}`); // ==> kết quả 250
 
 //            *** *** *** *** *** ***
 // *** Bài 31: Function cơ bản cho người mới Phần 3 ***
-// Anonymous function (function expression): là chức năng(function) ẩn danh(vô danh: Anoymous)
-// Function declaration: có khai báo và chức năng có tên(có danh)
-const logName = function () {
-    console.log("your name"); // ==> kết quả your name
-}; // khai báo biến
-logName(); // ==> gọi biến ==> ko bị hoisting
-// Anonymous function không đc gọi biến trước rồi mới khai báo hàm sẽ bị lỗi(error)
-// mình phải làm theo trình tự khai báo hàm trước rồi mình mới gọi biến sẽ ko bị lỗi(error)
-// còn function functionName(parameters, parameters), Function declarationc thì tự  động chuyển đổi
-
-// *** *** IIFE ==> Immediately Invoked Function Execution :Thực thi hàm được gọi ngay lập tức
-// Immediately (Ngay lập tức)
-// Invoked (Được gọi)
-// Function (Chức năng)
-// Execution (Thực hiện)
-// Đây là IIFE (that is IIFE)
-(function () {
-    console.log("this is IIFE function"); // ==> kết quả: this is IIFE function
-})();
+// An

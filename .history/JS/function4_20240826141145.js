@@ -82,16 +82,5 @@ const logName = function () {
     console.log("your name"); // ==> kết quả your name
 }; // khai báo biến
 logName(); // ==> gọi biến ==> ko bị hoisting
-// Anonymous function không đc gọi biến trước rồi mới khai báo hàm sẽ bị lỗi(error)
-// mình phải làm theo trình tự khai báo hàm trước rồi mình mới gọi biến sẽ ko bị lỗi(error)
-// còn function functionName(parameters, parameters), Function declarationc thì tự  động chuyển đổi
-
-// *** *** IIFE ==> Immediately Invoked Function Execution :Thực thi hàm được gọi ngay lập tức
-// Immediately (Ngay lập tức)
-// Invoked (Được gọi)
-// Function (Chức năng)
-// Execution (Thực hiện)
-// Đây là IIFE (that is IIFE)
-(function () {
-    console.log("this is IIFE function"); // ==> kết quả: this is IIFE function
-})();
+// Anonymous function không đc gọi trước rồi mới khai báo biến sẽ bị lỗi(error) 
+// mình phải làm theo trình tự khai báo trước rồi mình mới gọi sẽ ko bị lỗi(error) như
