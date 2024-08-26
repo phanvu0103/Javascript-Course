@@ -49,7 +49,7 @@ console.log(sum(50, 100));
 // console.log(sum()); => function sum()  còn kho khai cáo c và d ==> kết quả NaN
 
 //            *** *** *** *** *** ***
-// *** Bài 30: Function cơ bản cho người mới Phần 2 ***
+// *** Bài : Function cơ bản cho người mới Phần 2 ***
 // ***Tham số là function***
 // Lưu function vào 1 biến rồi gọi sau
 function add(a = 0, b = 0) {
