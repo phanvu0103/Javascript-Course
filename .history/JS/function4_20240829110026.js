@@ -134,7 +134,7 @@ if (2 > 1) {
     // Blockl scope
     // hosited
     var message2 = "hello 2"; // var là global scope
-    // message2 = "hello 2"; khi lại ở var, let,  ở ngoài block scope và ra kết quả
+    // message2 = "hello 2"; khi lại ở var, let, const ở ngoài block scope và ra kết quả
 
     // alert(message2);
     // console.log(message2); // ==> gọi ở trong block thì kết quả ==> Hello2

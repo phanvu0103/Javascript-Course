@@ -126,15 +126,13 @@ if (2 > 1) {
 //
 // Từ khoá var
 
-// var message2 = "hello 2"; khi var, let,  khai ở ngoài block scope thì trong block scope mình khai lại và gọi ở ngoài đc và ra kết quả ko bị lỗi
-// let message2 = "hello 2";
+// var message2 = "hello 2"; khi var, let, const khai ở ngoài block s
 if (2 > 1) {
     // { <==Block scope
     const message = "hello";
     // Blockl scope
     // hosited
     var message2 = "hello 2"; // var là global scope
-    // message2 = "hello 2"; khi lại ở var, let,  ở ngoài block scope và ra kết quả
 
     // alert(message2);
     // console.log(message2); // ==> gọi ở trong block thì kết quả ==> Hello2

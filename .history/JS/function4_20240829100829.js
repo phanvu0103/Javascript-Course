@@ -99,10 +99,10 @@ logName(); // ==> gọi biến ==> ko bị hoisting
 // *** *** *** *** *** //
 // ***  Bài 32: Global scope và function scope ***
 // Scope : phạm vi của biến
-// Global scope ( toàn cục bộ )
+// Global scope
 let myName = "evondev"; //Global scope: là nó nằm ngoài function
 
-// function scope ( cục bộ )
+// function scope
 function logYourName() {
     let myName2 = myName; // function scope: là nằm trong function
     console.log(myName2);
@@ -112,33 +112,5 @@ logYourName();
 
 // *** *** *** *** *** //
 // *** Bài 33: Block scope và từ khoá var ***
-//
-// Block scope: {truy xuất trong block, ko thể truy xuất bên ngoài ko truy xuất đc}<==  nằm trong block còn ngoài block thì ko đc
-if (2 > 1) {
-    // { <==Block scope
-
-    let message = "hello";
-    console.log(message);
-    // alert(message); // ở trong block thì chương trình nó hiểu và kết quả ra => Hello
-} // } <==Block scope
-// alert(message); ==>
-// còn ở ngoài block thì chương tình ko hiểu khai gì nên kết quả hiện ra lỗi :(function4.js:122 Uncaught ReferenceError: message is not defined)
-//
-// Từ khoá var
-
-// var message2 = "hello 2"; khi var, let,  khai ở ngoài block scope thì trong block scope mình khai lại và gọi ở ngoài đc và ra kết quả ko bị lỗi
-// let message2 = "hello 2";
-if (2 > 1) {
-    // { <==Block scope
-    const message = "hello";
-    // Blockl scope
-    // hosited
-    var message2 = "hello 2"; // var là global scope
-    // message2 = "hello 2"; khi lại ở var, let,  ở ngoài block scope và ra kết quả
-
-    // alert(message2);
-    // console.log(message2); // ==> gọi ở trong block thì kết quả ==> Hello2
-} // { <==Block scope
-console.log(message2); // ==> gọi ngoài trong block thì kết quả ==> Hello2 vì Var là global scope
-// *** *** *** *** ***
+// *** *** *** *** *** //
 // ***  Bài : Closure ***
