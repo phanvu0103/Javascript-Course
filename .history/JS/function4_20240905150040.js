@@ -181,6 +181,6 @@ function anotherFunction() {
     }
     return sayHi; // kết quả đến sayHi xong ko gọi đc otherMessage
 }
-let callFunc = anotherFunction(); // otherMessage is no longer
+let callFunc = anotherFunction(); // otherMessage is 
 
-callFunc(); // mình dùng Closure để gọi let otherMessage = "hello"; đc
+callFunc();

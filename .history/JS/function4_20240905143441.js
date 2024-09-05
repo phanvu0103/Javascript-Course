@@ -160,7 +160,7 @@ function sayHello2() {
     }
     return sayHi;
 }
-let hello = sayHello2();
+let hello4 = sayHello2();
 hello();
 // *** Trường hợp 2 Closure
 function sayHello3(message) {
@@ -169,18 +169,4 @@ function sayHello3(message) {
     };
 }
 let helloo = sayHello3("Welcom to javascript");
-helloo(" Closure");
-// *** *** *** *** ***
-// ***  Bài 35: Closure cơ bản ***
-// *** Trường hợp 3 Closure
-function anotherFunction() {
-    //function cha đã khai báo
-    let otherMessage = "hello";
-    function sayHi() {
-        console.log(otherMessage);
-    }
-    return sayHi; // kết quả đến sayHi xong ko gọi đc otherMessage
-}
-let callFunc = anotherFunction(); // otherMessage is no longer
-
-callFunc(); // mình dùng Closure để gọi let otherMessage = "hello"; đc
+hello(" Closure");

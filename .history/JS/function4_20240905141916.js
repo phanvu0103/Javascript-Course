@@ -149,7 +149,7 @@ function sayHello() {
     console.log(`${message5} ${aNewName}`);
 }
 sayHello();
-// *** Trường hợp 1 Closure
+
 // Function con có thể truy xuất scope của function cha
 function sayHello2() {
     // parent function: function cha
@@ -161,26 +161,4 @@ function sayHello2() {
     return sayHi;
 }
 let hello = sayHello2();
-hello();
-// *** Trường hợp 2 Closure
-function sayHello3(message) {
-    return function hiYourName(name) {
-        console.log(`${message} ${name}`);
-    };
-}
-let helloo = sayHello3("Welcom to javascript");
-helloo(" Closure");
-// *** *** *** *** ***
-// ***  Bài 35: Closure cơ bản ***
-// *** Trường hợp 3 Closure
-function anotherFunction() {
-    //function cha đã khai báo
-    let otherMessage = "hello";
-    function sayHi() {
-        console.log(otherMessage);
-    }
-    return sayHi; // kết quả đến sayHi xong ko gọi đc otherMessage
-}
-let callFunc = anotherFunction(); // otherMessage is no longer
-
-callFunc(); // mình dùng Closure để gọi let otherMessage = "hello"; đc
+hello()

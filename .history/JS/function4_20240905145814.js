@@ -174,13 +174,10 @@ helloo(" Closure");
 // ***  Bài 35: Closure cơ bản ***
 // *** Trường hợp 3 Closure
 function anotherFunction() {
-    //function cha đã khai báo
     let otherMessage = "hello";
     function sayHi() {
         console.log(otherMessage);
     }
-    return sayHi; // kết quả đến sayHi xong ko gọi đc otherMessage
+    return sayHi;
 }
-let callFunc = anotherFunction(); // otherMessage is no longer
-
-callFunc(); // mình dùng Closure để gọi let otherMessage = "hello"; đc
+let callFunc 

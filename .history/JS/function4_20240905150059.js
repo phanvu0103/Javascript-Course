@@ -183,4 +183,4 @@ function anotherFunction() {
 }
 let callFunc = anotherFunction(); // otherMessage is no longer
 
-callFunc(); // mình dùng Closure để gọi let otherMessage = "hello"; đc
+callFunc(); // mình dùng 
