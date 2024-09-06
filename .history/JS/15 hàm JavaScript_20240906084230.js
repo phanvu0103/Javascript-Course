@@ -1,0 +1,1 @@
+15 hàm JavaScript bắt buộc phải thành thạo nếu muốn trở thành lập trình viên Super Vip Pro

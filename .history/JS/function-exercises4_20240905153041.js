@@ -1,5 +1,6 @@
 // Bài số 1: viết function (hàm) so sánh a, b tìm ra số lớn hơn
 function compare(a, b) {
-    return Math.max(a, b);
+    
+    return Math.max(a, v);
 }
-console.log(compare(10, 100));
+ console.log(a, b);

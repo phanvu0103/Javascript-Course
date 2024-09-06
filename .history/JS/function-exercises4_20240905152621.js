@@ -1,0 +1,1 @@
+// Bài số 1: viết function (hàm) so sanh

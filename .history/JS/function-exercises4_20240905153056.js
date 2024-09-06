@@ -2,4 +2,4 @@
 function compare(a, b) {
     return Math.max(a, b);
 }
-console.log(compare(10, 100));
+console.log(a, b);
