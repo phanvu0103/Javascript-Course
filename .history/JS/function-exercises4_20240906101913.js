@@ -10,11 +10,12 @@
 // }
 // console.log(compare(10, 1000));
 
+
 function compare(a = 0, b = 0) {
     if (typeof a !== "number" || typeof b !== "number") {
-        console.log("Please enter a valid number");
-        return 0; //nếu ko có return thì nó chạy console.log(compare(10, "1000")); kết quả ra 1000, còn chạy return thì kết quả ra =>Please enter a valid number
-    }
+        console.log("Please enter a valid ")
+
+    };
     return Math.max(a, b);
 }
-console.log(compare(10, "1000"));
+console.log(compare(10, 1000));

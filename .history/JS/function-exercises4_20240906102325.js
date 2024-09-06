@@ -13,7 +13,7 @@
 function compare(a = 0, b = 0) {
     if (typeof a !== "number" || typeof b !== "number") {
         console.log("Please enter a valid number");
-        return 0; //nếu ko có return thì nó chạy console.log(compare(10, "1000")); kết quả ra 1000, còn chạy return thì kết quả ra =>Please enter a valid number
+        return; //nếu ko có return thì 
     }
     return Math.max(a, b);
 }
