@@ -124,10 +124,7 @@ console.log(now.toISOString()); // ==> 2024-09-11T08:12:48.223Z
 // ); // 7/9/2024
 //
 const myTime = new Date("Sat Sep 07 2024 09:11:39 GMT+0700 (Indochina Time)");
-const myYear = myTime.getFullYear(); // 2024
-const myMonth = myTime.getMonth() + 1; // 9
-const prefixMonth = myMonth < 10 ? "0" : "";
-const myDate = myTime.getDate(); // 7
-const prefixDate = myDate < 10 ? "0" : "";
-// console.log(myYear, myMonth, myDate); // ==> 2024 9 7
-console.log(`${prefixDate}${myDate}/${prefixMonth}${myMonth}/${myYear}`); // ==> 07/09/2024
+const myYear = myTime.getFullYear();
+const myMonth = myTime.getMonth();
+const myDate = myTime.getDate();
+console.log(myYear, myMonth, myDate); // ==> 2024 8 7

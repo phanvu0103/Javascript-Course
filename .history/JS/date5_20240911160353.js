@@ -128,6 +128,6 @@ const myYear = myTime.getFullYear(); // 2024
 const myMonth = myTime.getMonth() + 1; // 9
 const prefixMonth = myMonth < 10 ? "0" : "";
 const myDate = myTime.getDate(); // 7
-const prefixDate = myDate < 10 ? "0" : "";
+const prefixDa = myMonth < 10 ? "0" : "";
 // console.log(myYear, myMonth, myDate); // ==> 2024 9 7
-console.log(`${prefixDate}${myDate}/${prefixMonth}${myMonth}/${myYear}`); // ==> 07/09/2024
+console.log(`${myDate}/${prefixMonth}${myMonth}/${myYear}`);

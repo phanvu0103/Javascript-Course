@@ -107,27 +107,6 @@ console.log(birthday.getUTCMilliseconds());
 //
 // *** *** *** *** ***
 // Bài 46: Tìm hiểu các hàm khác trong Date
-console.log(now.toDateString()); // ==> Wed Sep 11 2024
-console.log(now.toTimeString()); // ==> 15:08:46 GMT+0700 (Indochina Time)
-console.log(now.toLocaleDateString()); // ==> 9/11/2024 -> m/dd/yyyy
-console.log(now.toLocaleDateString("vi-VI")); // ==> 11/9/2024 -> dd/m/yyyy theo ngày tháng ở Việt Nam
-console.log(now.toISOString()); // ==> 2024-09-11T08:12:48.223Z
-//
-// *** *** *** *** ***
-// Bài 47: Bài tập đơn giản về Date object
-// 11 / 09 / 2024;
-// input:  Sat Sep 07 2024 09:11:39 GMT+0700 (Indochina Time)
-// console.log(
-//     new Date(
-//         "Sat Sep 07 2024 09:11:39 GMT+0700 (Indochina Time)"
-//     ).toLocaleDateString("vi-VI")
-// ); // 7/9/2024
-//
-const myTime = new Date("Sat Sep 07 2024 09:11:39 GMT+0700 (Indochina Time)");
-const myYear = myTime.getFullYear(); // 2024
-const myMonth = myTime.getMonth() + 1; // 9
-const prefixMonth = myMonth < 10 ? "0" : "";
-const myDate = myTime.getDate(); // 7
-const prefixDate = myDate < 10 ? "0" : "";
-// console.log(myYear, myMonth, myDate); // ==> 2024 9 7
-console.log(`${prefixDate}${myDate}/${prefixMonth}${myMonth}/${myYear}`); // ==> 07/09/2024
+console.log(now.toDateString());
+console.log(now.toTimeString);
+console.log(now.toLocaleDateString)
