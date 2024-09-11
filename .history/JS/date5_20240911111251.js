@@ -52,17 +52,9 @@ console.log(birthday.getMonth()); // print month 3 =
 // in ra
 console.log(birthday.getDate()); // print day 1
 //
-// in ra thứ tự của tuần
+// in ra
 // 0 - 6: 0 -> chủ nhật, 6: thứ bảy
 console.log(birthday.getDay()); // print day 1
 //
 // in ra giờ
-console.log(birthday.getHours());
-// in ra phút
-console.log(birthday.getMinutes());
-// in ra giây
-console.log(birthday.getSeconds());
-// in ra timestamp
-console.log(birthday.getMilliseconds());
-//
-console.log(birthday.getTime()); // => print 481136400000
+console.log(birthday.get());

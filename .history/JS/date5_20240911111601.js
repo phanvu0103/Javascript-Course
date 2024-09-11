@@ -52,7 +52,7 @@ console.log(birthday.getMonth()); // print month 3 =
 // in ra
 console.log(birthday.getDate()); // print day 1
 //
-// in ra thứ tự của tuần
+// in ra thứ 
 // 0 - 6: 0 -> chủ nhật, 6: thứ bảy
 console.log(birthday.getDay()); // print day 1
 //

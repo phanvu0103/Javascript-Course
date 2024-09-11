@@ -46,23 +46,11 @@ const birthday = new Date(1985, 3, 1);
 // => getMonth() 0 -- > 11, 0 tháng 1(jan) -> 11 tháng 12(dec)
 console.log(birthday.getFullYear()); // print year 1985
 //
-// in ra ngày của tháng: 1 -> 31
+// in ra ngày của tháng 
 console.log(birthday.getMonth()); // print month 3 =
 //
 // in ra
 console.log(birthday.getDate()); // print day 1
 //
-// in ra thứ tự của tuần
-// 0 - 6: 0 -> chủ nhật, 6: thứ bảy
+// in ra
 console.log(birthday.getDay()); // print day 1
-//
-// in ra giờ
-console.log(birthday.getHours());
-// in ra phút
-console.log(birthday.getMinutes());
-// in ra giây
-console.log(birthday.getSeconds());
-// in ra timestamp
-console.log(birthday.getMilliseconds());
-//
-console.log(birthday.getTime()); // => print 481136400000

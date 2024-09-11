@@ -37,32 +37,4 @@ console.log(new Date(2024, 8, 10, 30, 30, 30, 30)); // print Wed Sep 11 2024 06:
 // Bài 43: Các hàm get trong Date
 //
 // Get truy xuất thời gian
-// Các hàm Get trong Date
-//
-// in ra năm
-const birthday = new Date(1985, 3, 1);
-//
-// in ra tháng
-// => getMonth() 0 -- > 11, 0 tháng 1(jan) -> 11 tháng 12(dec)
-console.log(birthday.getFullYear()); // print year 1985
-//
-// in ra ngày của tháng: 1 -> 31
-console.log(birthday.getMonth()); // print month 3 =
-//
-// in ra
-console.log(birthday.getDate()); // print day 1
-//
-// in ra thứ tự của tuần
-// 0 - 6: 0 -> chủ nhật, 6: thứ bảy
-console.log(birthday.getDay()); // print day 1
-//
-// in ra giờ
-console.log(birthday.getHours());
-// in ra phút
-console.log(birthday.getMinutes());
-// in ra giây
-console.log(birthday.getSeconds());
-// in ra timestamp
-console.log(birthday.getMilliseconds());
-//
-console.log(birthday.getTime()); // => print 481136400000
+// Các hàm Get trong 
