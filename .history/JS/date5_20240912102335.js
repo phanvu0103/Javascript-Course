@@ -147,7 +147,3 @@ const Time = setInterval(function () {
     console.log("Call Me");
 }, 1000);
 clearInterval(Time);
-//
-// *** *** *** *** ***
-// Bài 49: Bài tập chương 5
-//

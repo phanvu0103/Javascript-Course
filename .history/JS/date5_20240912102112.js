@@ -137,17 +137,12 @@ console.log(`${prefixDate}${myDate}/${prefixMonth}${myMonth}/${myYear}`); // ==>
 // setTimeout & setInterval
 //
 //  setTimeout
-// const time1 = setTimeout(function () {
+// setTimeout(function () {
 //     alert("call me after 3 seconds");
 // }, 3000);
-// clearTimeout1(Time);
 //
 //setInterval
-const Time = setInterval(function () {
+const  setInterval(function () {
     console.log("Call Me");
 }, 1000);
-clearInterval(Time);
-//
-// *** *** *** *** ***
-// Bài 49: Bài tập chương 5
-//
+clearInterval

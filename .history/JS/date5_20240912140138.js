@@ -149,5 +149,4 @@ const Time = setInterval(function () {
 clearInterval(Time);
 //
 // *** *** *** *** ***
-// Bài 49: Bài tập chương 5
-//
+// Bài 4
