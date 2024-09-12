@@ -147,6 +147,8 @@ const Time = setInterval(function () {
     console.log("Call Me");
 }, 1000);
 clearInterval(Time);
+//
+// *** *** *** *** ***
 // Bài 49: Bài tập chương 5
 // 1. Viết chương trình nhập vào năm sinh và in ra số tuổi - dễ
 // 2. Viết chương trình đếm ngược thời gian theo từng giây(countdown) dựa vào thời gian dấu vào. ví dụ thời gian làm bài là 30 phút nếu chạy về 0 thì thông báo đã hết thời gian - trung bình
@@ -154,14 +156,8 @@ clearInterval(Time);
 //
 // *** *** *** *** ***
 // Bài 50: Giải bài tập chương 5 bài 1
-function getAge(year) {
-    // chép đầu vào dùng if (typeof)
-    if (typeof year !== "munber") return 0;
+function getAge(year)(
     // currenYear - Year
     const now = new Date();
-    const currenYear = now.getFullYear();
-    return currenYear - year;
-}
-// console.log(getAge(1985)); // hiện số 39
-const youAge = getAge(1991);
-console.log(`Năm nay bạn là ${youAge} tuổi`); // cách hay hơn tạo 1 biến
+    const
+)

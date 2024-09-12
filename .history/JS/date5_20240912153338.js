@@ -156,7 +156,7 @@ clearInterval(Time);
 // Bài 50: Giải bài tập chương 5 bài 1
 function getAge(year) {
     // chép đầu vào dùng if (typeof)
-    if (typeof year !== "munber") return 0;
+    if (typeof) year !== "mu"
     // currenYear - Year
     const now = new Date();
     const currenYear = now.getFullYear();
