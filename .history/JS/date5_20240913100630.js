@@ -172,9 +172,7 @@ function countdown(minutes = 30) {
     let second = minutes * 60; // 1800
     let conunter = 0; 
     const timer = setInterval(function () { }, 1000);
-    conunter = conunter + 1; // cho người mới bắt đầu
-    // conunter += 1; // viết rút gọn dòng này cũng đc cho người chuyên sâu
-    if ( )
+    conunter = conunter + 1;
+    
 }
-// conunter = 0
-// 1 2 3 4 5 6
+// conunter

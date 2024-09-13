@@ -174,7 +174,7 @@ function countdown(minutes = 30) {
     const timer = setInterval(function () { }, 1000);
     conunter = conunter + 1; // cho người mới bắt đầu
     // conunter += 1; // viết rút gọn dòng này cũng đc cho người chuyên sâu
-    if ( )
+    if ()
 }
 // conunter = 0
 // 1 2 3 4 5 6

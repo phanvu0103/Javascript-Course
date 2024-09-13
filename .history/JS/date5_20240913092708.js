@@ -169,12 +169,6 @@ console.log(`Năm nay bạn là ${youAge} tuổi`); // cách hay hơn tạo 1 bi
 // *** *** *** *** ***
 // Bài 51: Giải bài tập chương 5 bài 2
 function countdown(minutes = 30) {
-    let second = minutes * 60; // 1800
-    let conunter = 0; 
-    const timer = setInterval(function () { }, 1000);
-    conunter = conunter + 1; // cho người mới bắt đầu
-    // conunter += 1; // viết rút gọn dòng này cũng đc cho người chuyên sâu
-    if ( )
+    
+    const timer = setInterval(function () {}, 1000);
 }
-// conunter = 0
-// 1 2 3 4 5 6
