@@ -196,67 +196,11 @@ function timeSince(date) {
     let timer = seconds9 / 31536000;
     console.log(timer);
     if (timer > 1) {
-        console.log(`${Math.floortimer} năm trước`);
-        return;
+        console.log(`${timer} năm trước`);
     }
-    timer = seconds9 / 3678400;
-    if (timer > 1) {
-        console.log(`${Math.floortimer} tuần trước`);
-        return;
-    }
-    timer = seconds9 / 604800;
-    if (timer > 1) {
-        console.log(`${Math.floortimer} tuần trước`);
-        return;
-    }
-    timer = seconds9 / 86400;
-    if (timer > 1) {
-        console.log(`${Math.floortimer} ngày trước`);
-        return;
-    }
-    timer = seconds9 / 3600;
-    if (timer > 1) {
-        console.log(`${Math.floor(timer)} giờ trước`);
-        return;
-    }
-    timer = seconds9 / 60;
-    if (timer > 1) {
-        console.log(`${Math.floor(timer)} phút trước`);
-        return; // nếu mình muốn in ra kết quả từ phút ko hiện giây thì mình lệnh return
-    }
-    timer = seconds9;
-    if (timer > 1) {
-        console.log(`${timer} giây trước`);
-    }
-    return;
-    // chưa làm tròn số giây
-    // let timer = seconds9 / 31536000;
-    // console.log(timer);
-    // if (timer > 1) {
-    //     console.log(`${timer} năm trước`);
-    // }
-    // timer = seconds9 / 3678400;
-    // if (timer > 1) {
-    //     console.log(`${timer} tuần trước`);
-    // }
-    // timer = seconds9 / 604800;
-    // if (timer > 1) {
-    //     console.log(`${timer} tuần trước`);
-    // }
-    // timer = seconds9 / 86400;
-    // if (timer > 1) {
-    //     console.log(`${timer} ngày trước`);
-    // }
-    // timer = seconds9 / 3600;
-    // if (timer > 1) {
-    //     console.log(`${timer} giờ trước`);
-    // }
-    // timer = seconds9 / 60;
-    // if (timer > 1) {
-    //     console.log(`${timer} phút trước`);
-    // }
+    timer = seconds9 /
 }
-timeSince("Sep 16 2024 02:48:52 GMT+0700 (Indochina Time)");
+timeSince("Mon Sep 16 2024 08:48:52 GMT+0700 (Indochina Time)");
 //
 // bài 3 phần 1
 // function timeSince(date) {
@@ -277,5 +221,3 @@ timeSince("Sep 16 2024 02:48:52 GMT+0700 (Indochina Time)");
 // 1 ngày  = 1 * 24 * 60 * 60   = 86400
 // 1 giờ   = 1 * 60 * 60        = 3800
 // 1 phút  = 1 * 60             = 60
-// *** *** *** *** ***
-// Bài 54: Giải bài tập chương 5 bài 3 phần 3

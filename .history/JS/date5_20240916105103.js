@@ -224,7 +224,7 @@ function timeSince(date) {
         console.log(`${Math.floor(timer)} phút trước`);
         return; // nếu mình muốn in ra kết quả từ phút ko hiện giây thì mình lệnh return
     }
-    timer = seconds9;
+
     if (timer > 1) {
         console.log(`${timer} giây trước`);
     }
@@ -256,7 +256,7 @@ function timeSince(date) {
     //     console.log(`${timer} phút trước`);
     // }
 }
-timeSince("Sep 16 2024 02:48:52 GMT+0700 (Indochina Time)");
+timeSince("Mon Sep 16 2024 08:48:52 GMT+0700 (Indochina Time)");
 //
 // bài 3 phần 1
 // function timeSince(date) {
@@ -277,5 +277,3 @@ timeSince("Sep 16 2024 02:48:52 GMT+0700 (Indochina Time)");
 // 1 ngày  = 1 * 24 * 60 * 60   = 86400
 // 1 giờ   = 1 * 60 * 60        = 3800
 // 1 phút  = 1 * 60             = 60
-// *** *** *** *** ***
-// Bài 54: Giải bài tập chương 5 bài 3 phần 3

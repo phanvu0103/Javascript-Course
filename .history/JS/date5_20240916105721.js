@@ -224,7 +224,7 @@ function timeSince(date) {
         console.log(`${Math.floor(timer)} phút trước`);
         return; // nếu mình muốn in ra kết quả từ phút ko hiện giây thì mình lệnh return
     }
-    timer = seconds9;
+
     if (timer > 1) {
         console.log(`${timer} giây trước`);
     }

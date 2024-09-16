@@ -169,113 +169,18 @@ console.log(`Năm nay bạn là ${youAge} tuổi`); // cách hay hơn tạo 1 bi
 // *** *** *** *** ***
 // Bài 51: Giải bài tập chương 5 bài 2
 function countdown(minutes = 30) {
-    let seconds = minutes * 5; // 1800
+    let seconds = minutes * 60; // 1800
     let conunter = 0;
     const timer = setInterval(function () {
-        conunter = conunter + 1; // cho người mới bắt đầu
-        // conunter += 1; // viết rút gọn dòng này cũng đc cho người chuyên sâu
-        console.log(conunter);
-        if (conunter === seconds) {
-            clearInterval(timer);
-            console.log("Your time is end");
+    conunter = conunter + 1; // cho người mới bắt đầu
+    // conunter += 1; // viết rút gọn dòng này cũng đc cho người chuyên sâu
+    console.log(conunter);
+    if (conunter === seconds) {
+        clearInterval(timer);
+        console.log("Your time í end");
         }
-    }, 1000);
+        
 }
 countdown(1);
 // conunter = 0
 // 1 2 3 4 5 6
-//
-// *** *** *** *** ***
-// Bài 52: Giải bài tập chương 5 bài 3 phần 1
-function timeSince(date) {
-    // conunter Time - date
-    const now4 = new Date();
-    const youDate7 = new Date(date);
-    const seconds9 = Math.floor((now4.getTime() - youDate7.getTime()) / 1000); // in ra giây dùng now.getMonth.Time() trừ (-)  youDate() và chia cho (/) 1000, làm tròn số giây xuống  dùng lệnh Math.floor
-    // console.log(seconds9);
-    let timer = seconds9 / 31536000;
-    console.log(timer);
-    if (timer > 1) {
-        console.log(`${Math.floortimer} năm trước`);
-        return;
-    }
-    timer = seconds9 / 3678400;
-    if (timer > 1) {
-        console.log(`${Math.floortimer} tuần trước`);
-        return;
-    }
-    timer = seconds9 / 604800;
-    if (timer > 1) {
-        console.log(`${Math.floortimer} tuần trước`);
-        return;
-    }
-    timer = seconds9 / 86400;
-    if (timer > 1) {
-        console.log(`${Math.floortimer} ngày trước`);
-        return;
-    }
-    timer = seconds9 / 3600;
-    if (timer > 1) {
-        console.log(`${Math.floor(timer)} giờ trước`);
-        return;
-    }
-    timer = seconds9 / 60;
-    if (timer > 1) {
-        console.log(`${Math.floor(timer)} phút trước`);
-        return; // nếu mình muốn in ra kết quả từ phút ko hiện giây thì mình lệnh return
-    }
-    timer = seconds9;
-    if (timer > 1) {
-        console.log(`${timer} giây trước`);
-    }
-    return;
-    // chưa làm tròn số giây
-    // let timer = seconds9 / 31536000;
-    // console.log(timer);
-    // if (timer > 1) {
-    //     console.log(`${timer} năm trước`);
-    // }
-    // timer = seconds9 / 3678400;
-    // if (timer > 1) {
-    //     console.log(`${timer} tuần trước`);
-    // }
-    // timer = seconds9 / 604800;
-    // if (timer > 1) {
-    //     console.log(`${timer} tuần trước`);
-    // }
-    // timer = seconds9 / 86400;
-    // if (timer > 1) {
-    //     console.log(`${timer} ngày trước`);
-    // }
-    // timer = seconds9 / 3600;
-    // if (timer > 1) {
-    //     console.log(`${timer} giờ trước`);
-    // }
-    // timer = seconds9 / 60;
-    // if (timer > 1) {
-    //     console.log(`${timer} phút trước`);
-    // }
-}
-timeSince("Sep 16 2024 02:48:52 GMT+0700 (Indochina Time)");
-//
-// bài 3 phần 1
-// function timeSince(date) {
-//     // conunter Time - date
-//     const now4 = new Date();
-//     const youDate7 = new Date(date);
-//     const seconds9 = Math.floor((now4.getTime() - youDate7.getTime()) / 1000); // in ra giây dùng now.getMonth.Time() trừ (-)  youDate() và chia cho (/) 1000, làm tròn số giây dùng Math.floor
-//     console.log(seconds9);
-// }
-// timeSince("Mon Sep 16 2024 08:48:52 GMT+0700 (Indochina Time)");
-//
-// *** *** *** *** ***
-// Bài 53: Giải bài tập chương 5 bài 3 phần 2
-// 3 phút trước, 3 ngày trước, 2 tháng trước, 30 giây trước, 1 năm trước
-// 1 năm   = 365 * 24 * 60 * 60 = 31536000
-// 1 tháng = 31 * 24 * 60 * 60  = 3678400
-// 1 tuần  = 7 * 24 * 60 * 60   = 604800
-// 1 ngày  = 1 * 24 * 60 * 60   = 86400
-// 1 giờ   = 1 * 60 * 60        = 3800
-// 1 phút  = 1 * 60             = 60
-// *** *** *** *** ***
-// Bài 54: Giải bài tập chương 5 bài 3 phần 3
