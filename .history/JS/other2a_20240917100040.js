@@ -1,0 +1,29 @@
+// *** Bài 16: Tìm hiểu kiểu dữ liệu khác ***
+console.log("--------- *** Bài 16: Tìm hiểu kiểu dữ liệu khác *** ---------");
+// *** Underfined --> Khai báo nhưng chưa ra giá trị ***
+console.log("--------- ***  *** ---------");
+//
+let a;
+console.log(a); // ---> underfind
+let b;
+console.log(b); // --> underfind
+b = 100;
+console.log(b); // ---> 100
+
+//const c; // phải khai báo, nếu ko khai báo sẽ lỗi
+console.log("--------- ***  *** ---------");
+const c = 120;
+console.log(c);
+
+// Null --> nothing : là trống không
+console.log("--------- ***  *** ---------");
+console.log(d);
+
+// *** Boolean --> true or flase ***
+console.log("--------- ***  *** ---------");
+// falsy values vs truthy values
+console.log("--------- ***  *** ---------");
+// falsy values: "", 0, false, underfined, null
+console.log("--------- ***  *** ---------");
+// truthy values: "abc", 1, true, 100, 1000
+console.log("--------- ***  *** ---------");
