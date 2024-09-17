@@ -78,12 +78,7 @@ console.log(students3); // ==> (8) ['A', 'a', 'b', 'c', 'd', 'e', 'b', 'f']
 // *** *** *** *** ***
 //Bài 57.5: Các phương thức trong mảng phần 2 bổ sung
 // pop -> xóa phần tử cuối
-console.log("-----array,pop---------");
 console.log(students3);
 students3.pop();
 console.log(students3);
-// shirt -> xóa phần tử đầu tiền
-console.log("-----array,shirt---------");
-console.log(students3);
-students3.shift();
-console.log(students3);
+

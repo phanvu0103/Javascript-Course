@@ -83,7 +83,6 @@ console.log(students3);
 students3.pop();
 console.log(students3);
 // shirt -> xóa phần tử đầu tiền
-console.log("-----array,shirt---------");
 console.log(students3);
 students3.shift();
 console.log(students3);
