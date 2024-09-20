@@ -253,13 +253,5 @@ console.log(findYourIndex); // ==> 1
 // Nếu không tìm thấy thì sẽ trả lại kết quả là -1
 console.log(
     "--------- *** Nếu không tìm thấy thì sẽ trả lại kết quả là -1 *** ---------"
-);
-const findYourIndex1 = numbers.findIndex((element, index) => element < 0);
-console.log(findYourIndex1); // ==> -1
-//
-// *** *** *** *** ***
-// Bài 63: Tìm hiểu phương thức sort bổ sung
-console.log(
-    "--------- *** Bài 63: Tìm hiểu phương thức sort bổ sung *** ---------"
-);
-console.log("--------- *** array,sort bổ sung *** ---------");
+);const findYourIndex1 = numbers.findIndex((element, index) => element > 10);
+console.log(findYourIndex1); // ==> 1

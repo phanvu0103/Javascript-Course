@@ -219,7 +219,7 @@ const random5 = random.sort((a, b) => (a > b ? 0 : 1));
 console.log(random5);
 //
 // *** *** *** *** ***
-// Bài 61: Tìm hiểu phương thức find
+// Bài 61: Tìm hiểu phương thức findfind
 console.log("--------- *** Bài 61: Tìm hiểu phương thức find *** ---------");
 console.log("--------- *** array,find *** ---------");
 // Nó sẽ trả về phần tử tìm thấy đầu tiên trong mảng thỏa điều kiện nào đó

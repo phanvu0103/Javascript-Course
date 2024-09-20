@@ -222,44 +222,10 @@ console.log(random5);
 // Bài 61: Tìm hiểu phương thức find
 console.log("--------- *** Bài 61: Tìm hiểu phương thức find *** ---------");
 console.log("--------- *** array,find *** ---------");
-// Nó sẽ trả về phần tử tìm thấy đầu tiên trong mảng thỏa điều kiện nào đó
+// nó sẽ trả về phần tử tìm thấy đầu tiên trong mảng thỏa điều kiện nào đó
 const numbers = [1, 1000, 10, 5, 999, 9909];
-console.log(
-    "--------- *** nó sẽ trả về phần tử tìm thấy đầu tiên trong mảng thỏa điều kiện nào đó *** ---------"
-);
-
 // Tìm phần tử đầu tiên trong mảng lớn hơn 10
 const findYourNumber = numbers.find((element, index) => element > 10);
 console.log(findYourNumber); // ==> 1000
 const findYourNumber1 = numbers.find((element, index) => element > 9999990);
-console.log(
-    "---------  undefined (nếu không tìm thấy số lớn hơn các phần tử mình gọi không thỏa điều kiện  thì kết quả hiện ra ==>  undefined) ---------"
-);
-
-console.log(findYourNumber1); // ==> undefined (nếu không tìm thấy số lớn hơn các phần tử mình gọi không thỏa điều kiện  thì kết quả hiện ra ==>  undefined)
-//
-// *** *** *** *** ***
-// Bài 62: Tìm hiểu phương thức findIndex
-console.log(
-    "--------- *** Bài 62: Tìm hiểu phương thức findIndex *** ---------"
-);
-console.log("--------- *** array,findIndex *** ---------");
-console.log(
-    "--------- *** Nó trả về vị trí Index tìm thấy đầu tiên trong mảng thỏa điều kiện nào đó  *** ---------"
-);
-// Nó trả về vị trí Index tìm thấy đầu tiên trong mảng thỏa điều kiện nào đó
-const findYourIndex = numbers.findIndex((element, index) => element > 10);
-console.log(findYourIndex); // ==> 1
-// Nếu không tìm thấy thì sẽ trả lại kết quả là -1
-console.log(
-    "--------- *** Nếu không tìm thấy thì sẽ trả lại kết quả là -1 *** ---------"
-);
-const findYourIndex1 = numbers.findIndex((element, index) => element < 0);
-console.log(findYourIndex1); // ==> -1
-//
-// *** *** *** *** ***
-// Bài 63: Tìm hiểu phương thức sort bổ sung
-console.log(
-    "--------- *** Bài 63: Tìm hiểu phương thức sort bổ sung *** ---------"
-);
-console.log("--------- *** array,sort bổ sung *** ---------");
+console.log(findYourNumber1); // ==> undefined (nếu lớn hơn các phần tử mình gọi thì kết quả hiện ra unde)

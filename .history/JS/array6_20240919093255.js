@@ -262,4 +262,4 @@ console.log(findYourIndex1); // ==> -1
 console.log(
     "--------- *** Bài 63: Tìm hiểu phương thức sort bổ sung *** ---------"
 );
-console.log("--------- *** array,sort bổ sung *** ---------");
+console.log("--------- *** array,findIndex *** ---------");

@@ -259,7 +259,9 @@ console.log(findYourIndex1); // ==> -1
 //
 // *** *** *** *** ***
 // Bài 63: Tìm hiểu phương thức sort bổ sung
+
 console.log(
-    "--------- *** Bài 63: Tìm hiểu phương thức sort bổ sung *** ---------"
+    "--------- *** Bài 63: Tìm hiểu phương thức sort bổ sung
+ *** ---------"
 );
-console.log("--------- *** array,sort bổ sung *** ---------");
+console.log("--------- *** array,findIndex *** ---------");
