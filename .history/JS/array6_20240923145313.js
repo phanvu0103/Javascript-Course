@@ -356,7 +356,6 @@ console.log(greaterThanThree1); // ==> số lớn hơn 3 [4, 5]
 console.log(
     "--------- *** Bài 67: Tìm hiểu phương thức some và every *** ---------"
 );
-
 console.log("--------- *** array,some   *** ---------");
 // Trả về true khi thỏa 1 điều kiện và ngược lại trả về false khi không thỏa điều kiện nào cả
 console.log(

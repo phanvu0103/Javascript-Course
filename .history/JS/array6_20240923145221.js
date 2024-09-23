@@ -356,7 +356,6 @@ console.log(greaterThanThree1); // ==> số lớn hơn 3 [4, 5]
 console.log(
     "--------- *** Bài 67: Tìm hiểu phương thức some và every *** ---------"
 );
-
 console.log("--------- *** array,some   *** ---------");
 // Trả về true khi thỏa 1 điều kiện và ngược lại trả về false khi không thỏa điều kiện nào cả
 console.log(
@@ -376,6 +375,4 @@ console.log(
     "--------- Chỉ trả về true khi tất cả điều kiện đều đúng, ngược lại chỉ cần 1 cái sai thì sẽ return false ---------"
 );
 const everyNumber = listNumber.every((value) => value > 3);
-console.log(everyNumber); // ==> false
-const everyNumber1 = listNumber.every((value) => value > 0);
-console.log(everyNumber1); // ==> true
+console.log(everyNumber); // 

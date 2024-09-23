@@ -339,43 +339,8 @@ console.log("--------- *** array,filter *** ---------");
 
 console.log("--------- .filter(callback(value)) ---------");
 // const listNumber = [1, 2, 3, 4, 5];
-// cách 1 ghi đầy đủ
-console.log("--------- cách 1 ghi đầy đủ ---------");
+
 const greaterThanThree = listNumber.filter((value, index, array) => {
     return value > 3;
 });
-// cách 2 ghi rút gọn
-console.log("--------- cách 2 ghi rút gọn  ---------");
-const greaterThanThree1 = listNumber.filter((value) => value > 3);
-console.log(listNumber);
 console.log(greaterThanThree); // ==> số lớn hơn 3 [4, 5]
-console.log(greaterThanThree1); // ==> số lớn hơn 3 [4, 5]
-//
-// *** *** *** *** ***
-// Bài 67: Tìm hiểu phương thức some và every
-console.log(
-    "--------- *** Bài 67: Tìm hiểu phương thức some và every *** ---------"
-);
-
-console.log("--------- *** array,some   *** ---------");
-// Trả về true khi thỏa 1 điều kiện và ngược lại trả về false khi không thỏa điều kiện nào cả
-console.log(
-    "--------- Trả về true khi thỏa 1 điều kiện và ngược lại trả về false khi không thỏa điều kiện nào cả ---------"
-);
-// const listNumber = [1, 2, 3, 4, 5];
-const someNumber = listNumber.some((value) => value > 3);
-console.log(someNumber); // ==> true
-const someNumber1 = listNumber.some((value) => value > 30);
-console.log(someNumber1); // ==> false
-console.log("--------- *** array,every  *** ---------");
-// every: mọi điều kiện đều đúng
-console.log("--------- every: mọi điều kiện đều đúng ---------");
-
-// Chỉ trả về true khi tất cả điều kiện đều đúng, ngược lại chỉ cần 1 cái sai thì sẽ return false
-console.log(
-    "--------- Chỉ trả về true khi tất cả điều kiện đều đúng, ngược lại chỉ cần 1 cái sai thì sẽ return false ---------"
-);
-const everyNumber = listNumber.every((value) => value > 3);
-console.log(everyNumber); // ==> false
-const everyNumber1 = listNumber.every((value) => value > 0);
-console.log(everyNumber1); // ==> true
