@@ -270,7 +270,7 @@ const random7 = random.sort((a, b) => (a > b ? 1 : -1)); // ngược lại sort(
 console.log(random7); // tăng dần [1, 5, 10, 999, 1000, 9909]
 //
 // *** *** *** *** ***
-// Bài 64: Tìm hiểu phương thức map
+// Bài 63: Tìm hiểu phương thức sort bổ sung
 console.log("--------- *** Bài 64: Tìm hiểu phương thức map *** ---------");
 console.log("--------- *** array,map *** ---------");
 // duyệt qua từng phần tử và trả ra  một mảng mới mà không thay đổi ban đầu
@@ -287,43 +287,12 @@ const listNumberDouble = listNumber.map(function (value, index, array) {
     //(method) Array<number(số)>.map<number(số)>(callbackfn: (value: number(số) index: number(số), array: number(số)[]) => number(số), thisArg?: any): number(số)[]
     return value * 2;
 });
-
+const listNumberDouble1 = listNumber.map((value, index, array) ==> {
+    return * 3
+});
 console.log(listNumberDouble); // ==> (5) [2, 4, 6, 8, 10]
-
-const listNumberDouble1 = listNumber.map((value, index, array) => {
-    return value * 3;
-});
-console.log(listNumberDouble1); // ==> [3, 6, 9, 12, 15]
 //
 // *** *** *** *** ***
-// Bài 65: Tìm hiểu phương thức forEach
+// Bài 63: Tìm hiểu phương thức sort bổ sung
 console.log("--------- *** Bài 65: Tìm hiểu phương thức forEach *** ---------");
-console.log("--------- *** array,forEach *** ---------");
-const listNumberTripple = listNumber.forEach((value, index, array) => {
-    return value * 3;
-});
-console.log(listNumberTripple); // ==> undefined
-// Hãy cho biết sự khác nhau giữa forEach và map
-console.log(
-    "--------- *** Hãy cho biết sự khác nhau giữa forEach và map *** ---------"
-);
-// forEach không return được còn map thì return được
-console.log(
-    "--------- *** forEach không return được còn map thì return được *** ---------"
-);
-console.log(
-    "--------- *** map thì trả lại mảng mới dựa vào mảng ban đầu còn forEach thì không *** ---------"
-);
-//  map thì trả lại mảng mới dựa vào mảng ban đầu còn forEach thì không
-console.log(
-    "--------- *** forEach chạy không dừng được khi không có return nên chạy mãi thường dùng trong dom *** ---------"
-);
-//forEach chạy không dừng ko có return nên chạy mãi thường dùng trong dom
-console.log(
-    "--------- *** forEach chạy mãi vì không có chạy được return *** ---------"
-);
-//
-// *** *** *** *** ***
-// Bài 66: Tìm hiểu phương thức filter
-console.log("--------- *** Bài 66: Tìm hiểu phương thức filter *** ---------");
-console.log("--------- *** array,filter *** ---------");
+console.log("--------- *** array,map(forEach) *** ---------");

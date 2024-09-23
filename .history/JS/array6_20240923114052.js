@@ -270,7 +270,7 @@ const random7 = random.sort((a, b) => (a > b ? 1 : -1)); // ngược lại sort(
 console.log(random7); // tăng dần [1, 5, 10, 999, 1000, 9909]
 //
 // *** *** *** *** ***
-// Bài 64: Tìm hiểu phương thức map
+// Bài 63: Tìm hiểu phương thức sort bổ sung
 console.log("--------- *** Bài 64: Tìm hiểu phương thức map *** ---------");
 console.log("--------- *** array,map *** ---------");
 // duyệt qua từng phần tử và trả ra  một mảng mới mà không thay đổi ban đầu
