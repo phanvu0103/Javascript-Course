@@ -405,18 +405,17 @@ const totalNumber = listNumber.reduce(function (previousValue, currentValue) {
     // 3 + 3 = 6
     // 6 + 4 = 10
     // 10 + 5 = 15
-    // 15
     return previousValue + currentValue;
 }, 0);
 console.log(totalNumber); // ==> 15
 const totalNumber1 = listNumber.reduce(function (previousValue, currentValue) {
     console.log(previousValue, currentValue); // ==>
-    // 2 + 1 = 3
-    // 3 + 2 = 5
-    // 5 + 3 = 8
-    // 8 + 4 = 12
-    // 12 + 5 = 17
-    // 17
+    //2 1
+array6.js:412 3 2
+array6.js:412 5 3
+array6.js:412 8 4
+array6.js:412 12 5
+array6.js:420 17
     return previousValue + currentValue;
 }, 2);
-console.log(totalNumber1); // ==> 17
+console.log(totalNumber1); // ==> 15

@@ -405,7 +405,7 @@ const totalNumber = listNumber.reduce(function (previousValue, currentValue) {
     // 3 + 3 = 6
     // 6 + 4 = 10
     // 10 + 5 = 15
-    // 15
+    // 17
     return previousValue + currentValue;
 }, 0);
 console.log(totalNumber); // ==> 15

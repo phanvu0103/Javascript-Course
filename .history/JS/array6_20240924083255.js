@@ -398,25 +398,4 @@ console.log("--------- *** Bài 68: Tìm hiểu phương thức reduce *** -----
 console.log("--------- *** array,reduce   *** ---------");
 // Nó sẽ gom các phần tử trong mảng lại nhau thành 1
 // a.reduce(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: readonly T[]) => T)
-const totalNumber = listNumber.reduce(function (previousValue, currentValue) {
-    console.log(previousValue, currentValue); // ==>
-    // 0 + 1 = 1
-    // 1 + 2 = 3
-    // 3 + 3 = 6
-    // 6 + 4 = 10
-    // 10 + 5 = 15
-    // 15
-    return previousValue + currentValue;
-}, 0);
-console.log(totalNumber); // ==> 15
-const totalNumber1 = listNumber.reduce(function (previousValue, currentValue) {
-    console.log(previousValue, currentValue); // ==>
-    // 2 + 1 = 3
-    // 3 + 2 = 5
-    // 5 + 3 = 8
-    // 8 + 4 = 12
-    // 12 + 5 = 17
-    // 17
-    return previousValue + currentValue;
-}, 2);
-console.log(totalNumber1); // ==> 17
+const totalNumber = listNumber.reduce(f );
