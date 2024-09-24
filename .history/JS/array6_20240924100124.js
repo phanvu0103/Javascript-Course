@@ -436,6 +436,6 @@ function reverseString(str) {
 
     const joinStr = reverseStr.join(" ");
     console.log(joinStr);
-    return str.split(" ").reverse().join(" ");
+    return;
 }
 console.log(reverseString("My is name evondev"));

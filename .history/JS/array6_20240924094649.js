@@ -427,15 +427,5 @@ console.log("--------- *** Bài 69: Bài tập về mảng số 1 *** ---------"
 // 1. Đảo ngược 1 chuỗi. Ví dụ "My is name evondev" -> "evondev name is My"
 // const listName = "My is name evondev";
 function reverseString(str) {
-    if (!str) return null;
-    const arrStr = str.split(" ");
-    console.log(arrStr);
-
-    const reverseStr = arrStr.reverse();
-    console.log(reverseStr);
-
-    const joinStr = reverseStr.join(" ");
-    console.log(joinStr);
-    return str.split(" ").reverse().join(" ");
+    if
 }
-console.log(reverseString("My is name evondev"));

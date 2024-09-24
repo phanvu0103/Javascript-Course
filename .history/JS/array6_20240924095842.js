@@ -429,13 +429,8 @@ console.log("--------- *** Bài 69: Bài tập về mảng số 1 *** ---------"
 function reverseString(str) {
     if (!str) return null;
     const arrStr = str.split(" ");
-    console.log(arrStr);
-
     const reverseStr = arrStr.reverse();
-    console.log(reverseStr);
-
     const joinStr = reverseStr.join(" ");
-    console.log(joinStr);
-    return str.split(" ").reverse().join(" ");
+    return;
 }
-console.log(reverseString("My is name evondev"));
+console.log(reverseString("My is"));
