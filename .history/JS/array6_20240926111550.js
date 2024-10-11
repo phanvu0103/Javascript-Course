@@ -468,7 +468,7 @@ function reverseWord(str) {
     const joinStr = reverseStr.join("");
     console.log(joinStr);
 
-    // const reverseStr1 = joinStr.reverse();
+    const reverseStr1 = joinStr.reverse();
 
     // const joinStr = reverseStr.join(" ");
     // console.log(joinStr);

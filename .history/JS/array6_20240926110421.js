@@ -447,10 +447,10 @@ console.log("--------- *** Bài 70: Bài tập về mảng số 2 *** ---------"
 function reverseWord(str) {
     if (!str) return null;
     const arrStr = str;
-    // .split(" ")
-    // .map((item) => item.split("").reverse().join(""))
-    // .reverse()
-    // .join(" "); // ["i","love"]
+    //     .split(" ")
+    //     .map((item) => item.split("").reverse().join(""))
+    //     .reverse()
+    //     .join(" "); // ["i","love"]
 
     // const result = arrStr.reverse().join(" ");
     // console.log(arrStr);
@@ -467,8 +467,6 @@ function reverseWord(str) {
 
     const joinStr = reverseStr.join("");
     console.log(joinStr);
-
-    // const reverseStr1 = joinStr.reverse();
 
     // const joinStr = reverseStr.join(" ");
     // console.log(joinStr);

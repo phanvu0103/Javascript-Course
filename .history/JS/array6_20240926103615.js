@@ -446,31 +446,16 @@ console.log("--------- *** Bài 70: Bài tập về mảng số 2 *** ---------"
 // 2. Đảo ngược 1 chuỗi bao gồm ký tự. Ví dụ "i love " -> "evol i"
 function reverseWord(str) {
     if (!str) return null;
-    const arrStr = str;
-    // .split(" ")
-    // .map((item) => item.split("").reverse().join(""))
-    // .reverse()
-    // .join(" "); // ["i","love"]
-
-    // const result = arrStr.reverse().join(" ");
-    // console.log(arrStr);
+    const arrStr = str
+        .split(" ")
+        .map((item) => item.split("").reverse().reverse().join("")); // ["l","o"]
+    console.log(arrStr);
     // ["l","o", "v", "e"] -> ["e","v", "o", "l"]
 
-    const splitStr = arrStr.split();
-    console.log(splitStr);
-
-    const splititem1 = splitStr.map((item) => item.split(""));
-    console.log(splititem1);
-
-    const reverseStr = splititem1.reverse();
-    console.log(reverseStr);
-
-    const joinStr = reverseStr.join("");
-    console.log(joinStr);
-
-    // const reverseStr1 = joinStr.reverse();
+    // const reverseStr = arrStr.reverse();
+    // console.log(reverseStr);
 
     // const joinStr = reverseStr.join(" ");
     // console.log(joinStr);
 }
-reverseWord("i love");
+console.log(reverseWord("i love"));

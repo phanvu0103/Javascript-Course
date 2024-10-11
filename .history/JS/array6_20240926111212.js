@@ -445,8 +445,8 @@ console.log(reverseString("My is name evondev"));
 console.log("--------- *** Bài 70: Bài tập về mảng số 2 *** ---------");
 // 2. Đảo ngược 1 chuỗi bao gồm ký tự. Ví dụ "i love " -> "evol i"
 function reverseWord(str) {
-    if (!str) return null;
-    const arrStr = str;
+    if (!str) return null[]
+    const arrStr = str
     // .split(" ")
     // .map((item) => item.split("").reverse().join(""))
     // .reverse()
@@ -465,10 +465,8 @@ function reverseWord(str) {
     const reverseStr = splititem1.reverse();
     console.log(reverseStr);
 
-    const joinStr = reverseStr.join("");
-    console.log(joinStr);
-
-    // const reverseStr1 = joinStr.reverse();
+    const joinStr = reverseStr.join(" ");
+    console.log(joinStr)];
 
     // const joinStr = reverseStr.join(" ");
     // console.log(joinStr);

@@ -465,10 +465,10 @@ function reverseWord(str) {
     const reverseStr = splititem1.reverse();
     console.log(reverseStr);
 
-    const joinStr = reverseStr.join("");
+    const joinStr = reverseStr.join(" ");
     console.log(joinStr);
 
-    // const reverseStr1 = joinStr.reverse();
+    
 
     // const joinStr = reverseStr.join(" ");
     // console.log(joinStr);
