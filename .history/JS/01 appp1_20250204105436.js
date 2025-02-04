@@ -21,7 +21,7 @@ console.log(
 );
 // delcare variables : Khai báo biến
 console.log("--------- *** delcare variables : Khai báo biến *** ---------");
-// const and let  
+// const and let
 console.log("--------- *** const and let *** ---------");
 // const : là hằng số nhưng ko thay đổi giá trị hằng số
 console.log(
