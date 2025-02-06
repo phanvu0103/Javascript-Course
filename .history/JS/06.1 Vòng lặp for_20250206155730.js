@@ -55,7 +55,9 @@ for (let i = 0; i < number.length; i++) {
 //
 // *** *** *** *** ***
 //Bài 79: Vòng lặp for cơ bản phần 1
-console.log("--------- *** Bài 79: Vòng lặp for cơ bản phần 2 *** ---------");
+console.log(
+    "--------- ***Bài 78: Vòng lặp for cơ bản phần 1 *** *** ---------"
+);
 // for (let i = 0 (khai báo); i < number.length (điều kiện); i++(điều kiện))
 // for (let i = 1; i < number.length; i + 2) {
 //     console.log(`The Index is ${i}`);

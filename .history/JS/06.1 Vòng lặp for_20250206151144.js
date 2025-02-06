@@ -55,7 +55,7 @@ for (let i = 0; i < number.length; i++) {
 //
 // *** *** *** *** ***
 //Bài 79: Vòng lặp for cơ bản phần 1
-console.log("--------- *** Bài 79: Vòng lặp for cơ bản phần 2 *** ---------");
+console.log("--------- *** Bài 78: Vòng lặp for cơ bản phần 2 *** ---------");
 // for (let i = 0 (khai báo); i < number.length (điều kiện); i++(điều kiện))
 // for (let i = 1; i < number.length; i + 2) {
 //     console.log(`The Index is ${i}`);
@@ -94,12 +94,12 @@ console.log("--------- VD2 Vòng lặp for  ---------");
 const numberss1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 for (let i = 0; i < numberss1.length; i++) {
     // Nếu giá trị là 8 thì dừng vòng lặp
-    if (numberss1[i] === 8) {
+    if (numberss[i] === 8) {
         break;
     }
     console.log(`The value is ${numberss1[i]}`);
 }
-// console.log(`The value is ${numberss1[i]}`); kết quả:
+// console.log(`The value is ${numberss[i]}`); kết quả:
 // The value is 1
 // The value is 2
 // The value is 3
@@ -107,25 +107,3 @@ for (let i = 0; i < numberss1.length; i++) {
 // The value is 5
 // The value is 6
 // The value is 7
-
-console.log("--------- VD3 Vòng lặp for  ---------");
-
-// Nếu giá trị là 8 thì bỏ qua
-const numberss2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (let i = 0; i < numberss2.length; i++) {
-    // Nếu giá trị là 8 thì dừng vòng lặp
-    if (numberss2[i] === 8) {
-        continue;
-    }
-    console.log(`The value is ${numberss2[i]}`);
-}
-// console.log(`The value is ${numberss2[i]}`); kết quả:
-// The value is 1
-// The value is 2
-// The value is 3
-// The value is 4
-// The value is 5
-// The value is 6
-// The value is 7
-// The value is 9
-// The value is 10

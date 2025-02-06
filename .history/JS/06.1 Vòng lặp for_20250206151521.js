@@ -55,7 +55,7 @@ for (let i = 0; i < number.length; i++) {
 //
 // *** *** *** *** ***
 //Bài 79: Vòng lặp for cơ bản phần 1
-console.log("--------- *** Bài 79: Vòng lặp for cơ bản phần 2 *** ---------");
+console.log("--------- *** Bài 78: Vòng lặp for cơ bản phần 2 *** ---------");
 // for (let i = 0 (khai báo); i < number.length (điều kiện); i++(điều kiện))
 // for (let i = 1; i < number.length; i + 2) {
 //     console.log(`The Index is ${i}`);
@@ -119,7 +119,7 @@ for (let i = 0; i < numberss2.length; i++) {
     }
     console.log(`The value is ${numberss2[i]}`);
 }
-// console.log(`The value is ${numberss2[i]}`); kết quả:
+// console.log(`The value is ${numberss1[i]}`); kết quả:
 // The value is 1
 // The value is 2
 // The value is 3
@@ -128,4 +128,4 @@ for (let i = 0; i < numberss2.length; i++) {
 // The value is 6
 // The value is 7
 // The value is 9
-// The value is 10
+// The value is 
