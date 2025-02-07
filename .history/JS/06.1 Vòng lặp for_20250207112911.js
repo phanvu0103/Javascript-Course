@@ -250,7 +250,7 @@ do {
 } while (number3 < 10);
 
 console.log(
-    "--------- *** nếu bỏ number4 lên console thì chép điều kiện   *** ---------"
+    "--------- *** nếu bỏ number4 lên console thì khác   *** ---------"
 );
 let number4 = 1;
 do {

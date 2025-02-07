@@ -153,10 +153,9 @@ console.log("--------- *** Bài 81: Vòng lặp for cơ bản phần 4  *** ----
 ("--------- *** VD1 Vòng lặp chứa vòng lặp *** ---------");
 // nested loop
 //[[1,2,3],[1,2,3,4]]
-("--------- *** nested loop: là mảng phức tạp 2 chiều và nhiều chiều  *** ---------");
+("--------- *** nested loop: là mảng phức tạp 2 chiều  *** ---------");
 ("--------- *** [[1,2,3],[1,2,3,4]]  *** ---------");
-("--------- *** một mảng có thêm 2 mảng con   *** ---------");
-("--------- *** nested loop: chạy nhiều vòng thì rất nặng máy hao dữ liệu đầu vào   *** ---------");
+("--------- *** [[1,2,3],[1,2,3,4]]  *** ---------");
 
 const numberss4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 for (let i = numberss4.length - 1; i >= 0; i--) {
@@ -165,95 +164,3 @@ for (let i = numberss4.length - 1; i >= 0; i--) {
         console.log(j);
     }
 }
-// Infinite loop: vòng lặp vô cực
-("--------- *** Infinite loop: vòng lặp vô cực, nếu chạy có thể hư máy   *** ---------");
-/* ko nên chạy
-for (let i = 0; 2 > i ; i --){
-
-}
-*/
-
-//
-// *** *** *** *** ***
-//Bài 82: Bài tập cơ bản về vòng lặp for
-console.log(
-    "--------- *** Bài 82: Bài tập cơ bản về vòng lặp for  *** ---------"
-);
-console.log(
-    "--------- *** bài tập 1: sao chép mảng dùng vòng lặp for   *** ---------"
-);
-const numberss5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let copyArr = [];
-// 1 2 3 4
-// dùng lệnh push(value)
-for (let i = 0; i < numberss5.length; i++) {
-    copyArr.push(numberss5[i]);
-}
-console.log(copyArr);
-console.log("--------- *** bài tập 2: đảo ngược từ evol i   *** ---------");
-let str = "i love";
-for (let i = 0; i < str.length; i++) {
-    console.log(str[i]);
-}
-console.log("--------- ***    *** ---------");
-
-let str1 = "i love";
-let result = ""; // nối chuỗi lại
-for (let i = str1.length - 1; i >= 0; i--) {
-    console.log(str1[i]);
-    result = result + str1[i];
-}
-console.log(result); // -> kết quả evol i
-
-//
-// *** *** *** *** ***
-//Bài 83: Vòng lặp while và do while
-console.log("--------- *** Bài 83: Vòng lặp while và do while  *** ---------");
-console.log("--------- ***  while: while(condition): điều kiện  *** ---------");
-// (while(condition): điều kiện){
-// body
-// }
-let number1 = 1;
-while (number1 < 10) {
-    console.log("number is " + number1);
-    // điều kiện để dừng nếu ko có điều kiện dừng thì chạy vô tận
-    number1 = number1 + 1; // cho người mới
-    //number1 += 1; // cho người dùng thạo js
-    //number1++; // cho người dùng thạo js
-}
-console.log("--------- ***    *** ---------");
-
-let number2 = 1;
-while (number2 <= 10) {
-    console.log("number is " + number2);
-    // điều kiện để dừng nếu ko có điều kiện dừng thì chạy vô tận
-    number2 = number2 + 1; // cho người mới
-}
-console.log("--------- *** Do while  *** ---------");
-// while khác do while là:
-// while chép điều kiện trước rồi sử lý
-// do while sử lý trước rồi mới chép điều kiện
-console.log(
-    "--------- *** while khác do while là: while chép điều kiện trước rồi sử lý, do while sử lý trước rồi mới chép điều kiện    *** ---------"
-);
-
-/*
-    do {
-    
-    }  while(condition): điều kiện
- */
-let number3 = 1;
-do {
-    console.log("number is " + number3); // -> number is 1 chạy đến number is 9
-
-    number3++;
-} while (number3 < 10);
-
-console.log(
-    "--------- *** nếu bỏ number4 lên console thì chép điều kiện   *** ---------"
-);
-let number4 = 1;
-do {
-    number4++;
-    console.log("number is " + number4); // -> number is 2 chạy đến number is 10 mà bỏ number is 1 tại mình để console.log ở dưới
-} while (number4 < 10);

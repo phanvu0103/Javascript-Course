@@ -250,10 +250,10 @@ do {
 } while (number3 < 10);
 
 console.log(
-    "--------- *** nếu bỏ number4 lên console thì chép điều kiện   *** ---------"
+    "--------- *** nếu bỏ number4 lên console thì khác   *** ---------"
 );
 let number4 = 1;
 do {
     number4++;
-    console.log("number is " + number4); // -> number is 2 chạy đến number is 10 mà bỏ number is 1 tại mình để console.log ở dưới
+    console.log("number is " + number4); // -> number is 2 chạy đến number is 10
 } while (number4 < 10);

@@ -213,47 +213,12 @@ console.log("--------- ***  while: while(condition): điều kiện  *** -------
 // (while(condition): điều kiện){
 // body
 // }
-let number1 = 1;
+console.log("--------- *** Do while  *** ---------");
+let number1 = i;
 while (number1 < 10) {
-    console.log("number is " + number1);
+    console.log("number is less than 10");
     // điều kiện để dừng nếu ko có điều kiện dừng thì chạy vô tận
     number1 = number1 + 1; // cho người mới
-    //number1 += 1; // cho người dùng thạo js
-    //number1++; // cho người dùng thạo js
+    number1 += 1; // cho người dùng thạo js
+    number1++; // cho người dùng thạo js
 }
-console.log("--------- ***    *** ---------");
-
-let number2 = 1;
-while (number2 <= 10) {
-    console.log("number is " + number2);
-    // điều kiện để dừng nếu ko có điều kiện dừng thì chạy vô tận
-    number2 = number2 + 1; // cho người mới
-}
-console.log("--------- *** Do while  *** ---------");
-// while khác do while là:
-// while chép điều kiện trước rồi sử lý
-// do while sử lý trước rồi mới chép điều kiện
-console.log(
-    "--------- *** while khác do while là: while chép điều kiện trước rồi sử lý, do while sử lý trước rồi mới chép điều kiện    *** ---------"
-);
-
-/*
-    do {
-    
-    }  while(condition): điều kiện
- */
-let number3 = 1;
-do {
-    console.log("number is " + number3); // -> number is 1 chạy đến number is 9
-
-    number3++;
-} while (number3 < 10);
-
-console.log(
-    "--------- *** nếu bỏ number4 lên console thì chép điều kiện   *** ---------"
-);
-let number4 = 1;
-do {
-    number4++;
-    console.log("number is " + number4); // -> number is 2 chạy đến number is 10 mà bỏ number is 1 tại mình để console.log ở dưới
-} while (number4 < 10);
