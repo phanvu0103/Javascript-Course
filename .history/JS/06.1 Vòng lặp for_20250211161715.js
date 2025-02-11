@@ -480,9 +480,9 @@ console.log("--------- *** có chữ in hoa  *** ---------");
 function countVowels1(string) {
     let count10 = 0;
     const characters1 = "ueoai";
-    for (let c of string.toLowerCase()) {
+    for (let c of string.toLoweCare()) {
         if (characters1.includes(c)) count10 = count10 + 1;
     }
     return count10;
 }
-console.log(countVowels1("VOWELSE")); // mình phải thêm toLowerCase() để đổi chữ thường
+console.log(countVowels1("VOWELS")); // mình phải thêm toLowerCase()

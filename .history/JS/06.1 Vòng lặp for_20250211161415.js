@@ -477,12 +477,12 @@ function countVowels(string) {
 }
 console.log(countVowels("vowels")); // -> 2
 console.log("--------- *** có chữ in hoa  *** ---------");
-function countVowels1(string) {
-    let count10 = 0;
-    const characters1 = "ueoai";
-    for (let c of string.toLowerCase()) {
-        if (characters1.includes(c)) count10 = count10 + 1;
+function countVowels(string) {
+    let count = 0;
+    const characters = "ueoai";
+    for (let c of string.toLoweC) {
+        if (characters.includes(c)) count = count + 1;
     }
-    return count10;
+    return count;
 }
-console.log(countVowels1("VOWELSE")); // mình phải thêm toLowerCase() để đổi chữ thường
+console.log(countVowels("VOWELS")); // mình phải thêm toLowerCare()

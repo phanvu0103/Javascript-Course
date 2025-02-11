@@ -465,24 +465,7 @@ console.log("--------- *** Bài 88: Bài tập chương 6 số 5  *** ---------"
 // cho 1 chuỗi bất kỳ, điểm số lượng ký tự `vowels` có trong chuỗi.
 // vowels là các ký tự u e o a i
 // Ví dụ "evondev" -> 3
-console.log("--------- *** chữ thường   *** ---------");
-
 function countVowels(string) {
     let count = 0;
-    const characters = "ueoai";
-    for (let c of string) {
-        if (characters.includes(c)) count = count + 1;
-    }
-    return count;
+    const character
 }
-console.log(countVowels("vowels")); // -> 2
-console.log("--------- *** có chữ in hoa  *** ---------");
-function countVowels1(string) {
-    let count10 = 0;
-    const characters1 = "ueoai";
-    for (let c of string.toLowerCase()) {
-        if (characters1.includes(c)) count10 = count10 + 1;
-    }
-    return count10;
-}
-console.log(countVowels1("VOWELSE")); // mình phải thêm toLowerCase() để đổi chữ thường

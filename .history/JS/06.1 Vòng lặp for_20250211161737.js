@@ -485,4 +485,4 @@ function countVowels1(string) {
     }
     return count10;
 }
-console.log(countVowels1("VOWELSE")); // mình phải thêm toLowerCase() để đổi chữ thường
+console.log(countVowels1("VOWELSE")); // mình phải thêm toLowerCase() 
