@@ -407,7 +407,6 @@ reverseNumber(-567);
 //Bài 87: Bài tập chương 6 số 4
 console.log("--------- *** Bài 87: Bài tập chương 6 số 4  *** ---------");
 // Viết chương trình có tên là fizzBuzz với đầu vào là số nguyên, và cho chạy từ 1 cho tới số nguyên đó rồi kiểm tra nếu có số chia hết cho 2 thì in ra "Fizz", nếu chia hết cho 3 thì in ra "Buzz", nếu chia hết cho 2 và 3 thì in ra "FizzBuzz".
-console.log("--------- *** kết quả ra Fizz và Buzz  *** ---------");
 
 function fizzBuzz(number9) {
     for (let i = 1; i <= number9; i++) {
@@ -433,18 +432,9 @@ fizzBuzz(59); // -> kết quả ra Fizz và Buzz
 // console.log("Fizz");
 // chuyển sang else if (i % 2 === 0) {
 // console.log("Fizz");
-console.log("--------- ***  + - * / và % *** ---------");
+console.log("--------- ***   *** ---------");
+
 // + - * / và %
-console.log("--------- *** 6 % = 2 dư 0  *** ---------");
-
-// 6 % 2 = 3 dư 0
-
-console.log("--------- *** 6 % 4 = 1 dư 2  *** ---------");
-
-// 6 % 4 = 1 dư 2
-
-console.log("--------- *** kết quả ra Fizz, Buzz, FizzBuzz  *** ---------");
-
 function fizzBuzz(number10) {
     for (let i = 1; i <= number10; i++) {
         if (i % 3 === 0 && i % 2 === 0) {

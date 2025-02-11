@@ -433,18 +433,9 @@ fizzBuzz(59); // -> kết quả ra Fizz và Buzz
 // console.log("Fizz");
 // chuyển sang else if (i % 2 === 0) {
 // console.log("Fizz");
-console.log("--------- ***  + - * / và % *** ---------");
+console.log("--------- *** kết quả ra Fizz Buzz  *** ---------");
+
 // + - * / và %
-console.log("--------- *** 6 % = 2 dư 0  *** ---------");
-
-// 6 % 2 = 3 dư 0
-
-console.log("--------- *** 6 % 4 = 1 dư 2  *** ---------");
-
-// 6 % 4 = 1 dư 2
-
-console.log("--------- *** kết quả ra Fizz, Buzz, FizzBuzz  *** ---------");
-
 function fizzBuzz(number10) {
     for (let i = 1; i <= number10; i++) {
         if (i % 3 === 0 && i % 2 === 0) {

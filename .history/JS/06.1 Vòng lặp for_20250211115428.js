@@ -435,13 +435,8 @@ fizzBuzz(59); // -> kết quả ra Fizz và Buzz
 // console.log("Fizz");
 console.log("--------- ***  + - * / và % *** ---------");
 // + - * / và %
-console.log("--------- *** 6 % = 2 dư 0  *** ---------");
-
-// 6 % 2 = 3 dư 0
-
-console.log("--------- *** 6 % 4 = 1 dư 2  *** ---------");
-
-// 6 % 4 = 1 dư 2
+// 6 % = 2 dư 0
+// 6 % = 4 dư 0
 
 console.log("--------- *** kết quả ra Fizz, Buzz, FizzBuzz  *** ---------");
 
