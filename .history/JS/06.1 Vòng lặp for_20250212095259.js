@@ -496,7 +496,7 @@ console.log("--------- *** Bài 89: Bài tập chương 6 số 6  *** ---------"
 function unique(arr) {
     let result = [];
     // Boolean
-    // Array.isArray(array) -> true và ngươicj lại false
+    // Array.isArray(array) -> true và ngươicj lại fa
     // [1,2,3,5,7,6]
     for (let i = 0; i < arr.length; i++) {
         if (!result.includes(arr[[i]])) {

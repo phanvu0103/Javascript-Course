@@ -366,7 +366,7 @@ console.log(result1);
 
 //
 // *** *** *** *** ***
-//Bài 86: Bài tập chương 6 số 3
+//Bài 86: Bài tập chương 6 số 1 và 2
 console.log("--------- *** Bài 86: Bài tập chương 6 số 3  *** ---------");
 // Đảo ngược số nguyên Vi dụ 1234 -> 4321, -567 -> -765
 console.log(
@@ -460,7 +460,7 @@ fizzBuzz(19); // -> kết quả ra Fizz,  Buzz, FizzBuzz
 
 //
 // *** *** *** *** ***
-//Bài 88: Bài tập chương 6 số 5
+//Bài 88: Bài tập chương 6 số 4
 console.log("--------- *** Bài 88: Bài tập chương 6 số 5  *** ---------");
 // cho 1 chuỗi bất kỳ, điểm số lượng ký tự `vowels` có trong chuỗi.
 // vowels là các ký tự u e o a i
@@ -489,20 +489,5 @@ console.log(countVowels1("VOWELSE")); // mình phải thêm toLowerCase() để 
 
 //
 // *** *** *** *** ***
-//Bài 89: Bài tập chương 6 số 6
-console.log("--------- *** Bài 89: Bài tập chương 6 số 6  *** ---------");
-// cho 1 mảng các giá trị số [1,2,3,1,1,1,2,2,2,5,5,5,7,7,6]. Viết một function trả về một mảng với các giá trị unique. Kết quả ở trên sẽ là [1,2,3,5,7,6]
-
-function unique(arr) {
-    let result = [];
-    // Boolean
-    // Array.isArray(array) -> true và ngươicj lại false
-    // [1,2,3,5,7,6]
-    for (let i = 0; i < arr.length; i++) {
-        if (!result.includes(arr[[i]])) {
-            result.push(arr[[i]]);
-        }
-    }
-    return result;
-}
-console.log(unique([1, 2, 3, 1, 1, 1, 2, 2, 2, 5, 5, 5, 7, 7, 6]));
+//Bài 89: Bài tập chương 6 số 4
+console.log("--------- *** Bài 88: Bài tập chương 6 số 5  *** ---------");
