@@ -506,3 +506,14 @@ function unique(arr) {
     return result;
 }
 console.log(unique([1, 2, 3, 1, 1, 1, 2, 2, 2, 5, 5, 5, 7, 7, 6]));
+
+//
+// *** *** *** *** ***
+//Bài 90: Bài tập chương 6 số 7
+console.log("--------- *** Bài 90: Bài tập chương 6 số 7  *** ---------");
+// Viết 1 function xử lý từ 1 mảng lớn thành nhiều mảng con dựa vào một số nguyên đầu vào.
+// Ví dụ ([1,2,3,4,5], 2) -> [[1,2,], [3,4], [5]] t
+// ([1,2,3,4,5,6], 3) -> [[1,2,3], [4,5,6]]
+function splitArray(array, number) {
+    
+}
