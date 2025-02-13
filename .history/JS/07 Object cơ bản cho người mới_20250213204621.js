@@ -229,5 +229,5 @@ const user = {
 };
 const newUser = Object.seal(user);
 newUser.username = "i love you";
-newUser.lastname = "iloveyou";
+newUser.lastname = "ilo";
 console.log(newUser); // -> {username: 'i love you'}

@@ -216,18 +216,7 @@ const newCar = Object.freeze(car);
 newCar.brand = "Audi";
 console.log(newCar); // -> {brand: 'BMW', color: 'black'}
 // *** *** *** *** ***
-// Bài 99: Tìm hiểu phương thức Object.seal
+// Bài 99: Tìm hiểu phương thức Object.freeze
 console.log(
-    "--------- *** Bài 99: Tìm hiểu phương thức Object.seal *** ---------"
+    "--------- *** Bài 98: Tìm hiểu phương thức Object.freeze *** ---------"
 );
-// object.seal(object) -> ngăn chặn thêm mới key, xóa key, cho phép chỉnh sửa key, value của object
-console.log(
-    "--------- object.seal(object) -> ngăn chặn thêm mới key, xóa key, cho phép chỉnh sửa key, value của object ---------"
-);
-const user = {
-    username: "evondev",
-};
-const newUser = Object.seal(user);
-newUser.username = "i love you";
-newUser.lastname = "iloveyou";
-console.log(newUser); // -> {username: 'i love you'}

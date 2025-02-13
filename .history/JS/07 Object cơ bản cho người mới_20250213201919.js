@@ -159,75 +159,9 @@ console.log(values); // -> ['evondev', 25, 'true', ƒ, true, ƒ]
 // *** *** *** *** ***
 // Bài 96: Tìm hiểu phương thức  Object.entries
 console.log(
-    "--------- *** Bài 96: Tìm hiểu phương thức Object.entriess *** ---------"
+    "--------- *** Bài 96: Tìm hiểu phương thức  Object.entriess *** ---------"
 );
-// object.entries(object) -> trả về 1 mảng nested (trong mảng có mảng con [[1,2,3], [1,2]]) gồm có key và value của object [[12, "name"], ["evon", "age"]]
+// object.entries(object) -> trả về 1 mảng nested (trong mảng có mảng con [[1,2,3], [1,2]]) gồm có key và value của object [[12, "name"], ["evon", ,]]
 console.log(
     "--------- object.entries(object) -> trả về 1 mảng chứa tất cả các key và value của object ---------"
 );
-const entries = Object.entries(student);
-console.log(entries); // -> [Array(2), Array(2), Array(2), Array(2), Array(2), Array(2)]0.
-/**
- * 0: (2) ['name', 'evondev']
-1: (2) ['age', 25]
-2: (2) ['male', 'true']
-3: (2) ['hi', ƒ]
-4: (2) ['isDeveloper', true]
-5: (2) ['hello', ƒ]
-length: 6
- */
-
-// *** *** *** *** ***
-// Bài 97: Tìm hiểu phương thức Object.assign
-console.log(
-    "--------- *** Bài 97: Tìm hiểu phương thức Object.assign *** ---------"
-);
-// object.assign(object1, object2) -> gộp hay sao chép dữ liệu object2 vào object1
-console.log(
-    "---------  object.assign(object1, object2) -> gộp hay sao chép dữ liệu object2 vào object1 ---------"
-);
-
-const a = {
-    firstname: "evon",
-};
-const b = {
-    lastname: "dev",
-};
-const c = Object.assign(a, b);
-console.log(c); // -> {firstname: 'evon', lastname: 'dev'}
-const d = { ...a, ...b };
-console.log(d); // -> {firstname: 'evon', lastname: 'dev'}
-
-// *** *** *** *** ***
-// Bài 98: Tìm hiểu phương thức Object.freeze
-console.log(
-    "--------- *** Bài 98: Tìm hiểu phương thức Object.freeze *** ---------"
-);
-// object.freeze(object) -> đóng băng object, ngăn chặn, không thể thay đổi hay chỉnh sửa key và value giá trị của object
-console.log(
-    "--------- object.freeze(object) -> đóng băng object, ngăn chặn, không thể thay đổi hay chỉnh sửa key và value giá trị của object ---------"
-);
-
-const car = {
-    brand: "BMW",
-    color: "black",
-};
-const newCar = Object.freeze(car);
-newCar.brand = "Audi";
-console.log(newCar); // -> {brand: 'BMW', color: 'black'}
-// *** *** *** *** ***
-// Bài 99: Tìm hiểu phương thức Object.seal
-console.log(
-    "--------- *** Bài 99: Tìm hiểu phương thức Object.seal *** ---------"
-);
-// object.seal(object) -> ngăn chặn thêm mới key, xóa key, cho phép chỉnh sửa key, value của object
-console.log(
-    "--------- object.seal(object) -> ngăn chặn thêm mới key, xóa key, cho phép chỉnh sửa key, value của object ---------"
-);
-const user = {
-    username: "evondev",
-};
-const newUser = Object.seal(user);
-newUser.username = "i love you";
-newUser.lastname = "iloveyou";
-console.log(newUser); // -> {username: 'i love you'}

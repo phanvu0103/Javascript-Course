@@ -215,19 +215,3 @@ const car = {
 const newCar = Object.freeze(car);
 newCar.brand = "Audi";
 console.log(newCar); // -> {brand: 'BMW', color: 'black'}
-// *** *** *** *** ***
-// Bài 99: Tìm hiểu phương thức Object.seal
-console.log(
-    "--------- *** Bài 99: Tìm hiểu phương thức Object.seal *** ---------"
-);
-// object.seal(object) -> ngăn chặn thêm mới key, xóa key, cho phép chỉnh sửa key, value của object
-console.log(
-    "--------- object.seal(object) -> ngăn chặn thêm mới key, xóa key, cho phép chỉnh sửa key, value của object ---------"
-);
-const user = {
-    username: "evondev",
-};
-const newUser = Object.seal(user);
-newUser.username = "i love you";
-newUser.lastname = "iloveyou";
-console.log(newUser); // -> {username: 'i love you'}
