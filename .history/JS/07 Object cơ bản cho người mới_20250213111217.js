@@ -62,12 +62,6 @@ console.log("--------- thêm mới key vào object ---------");
 
 // isDeveloper: true;
 student.isDeveloper = true;
-// thêm function vào object
-console.log("--------- thêm function vào object ---------");
-
-student.hello = function () {
-    console.log("hello"); // -> hello: ƒ ()
-};
 console.log(student); //-> {name: 'evondev', age: 25, male: 'true', last-name: 'Nguyên', hi: ƒ, …}
 // age: 25;
 /**
@@ -79,7 +73,7 @@ name: "evondev"
  */
 // xóa key(giá trị) trong object dùng delete
 console.log("--------- xóa key(giá trị) trong object dùng delete ---------");
-delete student["last-name"]; // -> mất last-name
+delete student["last-name"]; // -
 /**
  *hi: ƒ ()
 isDeveloper: true

@@ -66,7 +66,9 @@ student.isDeveloper = true;
 console.log("--------- thêm function vào object ---------");
 
 student.hello = function () {
-    console.log("hello"); // -> hello: ƒ ()
+    console.log("hello"); // -> hello
+: 
+ƒ ()
 };
 console.log(student); //-> {name: 'evondev', age: 25, male: 'true', last-name: 'Nguyên', hi: ƒ, …}
 // age: 25;

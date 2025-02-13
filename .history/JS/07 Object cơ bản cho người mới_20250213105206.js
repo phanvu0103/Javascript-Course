@@ -45,8 +45,6 @@ student.male = "male";
 console.log(student["age"]); // -> 20
 console.log(student["last-name"]); // -> Nguyên
 // Thay đổi giá trị trong object
-console.log("--------- Thay đổi giá trị trong object ---------");
-
 student.age = 25;
 student.male = "true";
 console.log(student); // -> {name: 'evondev', age: 25, male: 'true', last-name: 'Nguyên', hi: ƒ}
@@ -58,31 +56,9 @@ male: "true"
 name: "evondev"
  */
 // thêm mới key vào object
-console.log("--------- thêm mới key vào object ---------");
-
 // isDeveloper: true;
 student.isDeveloper = true;
-// thêm function vào object
-console.log("--------- thêm function vào object ---------");
-
-student.hello = function () {
-    console.log("hello"); // -> hello: ƒ ()
-};
-console.log(student); //-> {name: 'evondev', age: 25, male: 'true', last-name: 'Nguyên', hi: ƒ, …}
-// age: 25;
+console.log(student); //0
 /**
- *hi: ƒ ()
-isDeveloper: true
-last-name: "Nguyên"
-male: "true"
-name: "evondev"
- */
-// xóa key(giá trị) trong object dùng delete
-console.log("--------- xóa key(giá trị) trong object dùng delete ---------");
-delete student["last-name"]; // -> mất last-name
-/**
- *hi: ƒ ()
-isDeveloper: true
-male: "true"
-name: "evondev"
+ * 
  */
