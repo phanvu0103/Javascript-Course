@@ -252,17 +252,10 @@ console.log(
     "--------- *** Bài 101: Cách sao chép một object phức tạp *** ---------"
 );
 // Object.assign({}, object) -> sao chép object phức tạp
-console.log("--------- vd1 ---------");
-const newUser2 = Object.assign({}, user1);
-console.log(newUser2); // -> {username: 'iloveyouverymuch'}
-
-console.log("--------- vd2 ---------");
 const user2 = {
     userName: "evondev",
     school: {
         name: "university",
-        room: {
-            name: "IT",
-        },
-    },
-};
+        roo
+    }
+}

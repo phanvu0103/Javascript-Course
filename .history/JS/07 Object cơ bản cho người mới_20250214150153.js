@@ -254,10 +254,9 @@ console.log(
 // Object.assign({}, object) -> sao chép object phức tạp
 console.log("--------- vd1 ---------");
 const newUser2 = Object.assign({}, user1);
-console.log(newUser2); // -> {username: 'iloveyouverymuch'}
-
 console.log("--------- vd2 ---------");
-const user2 = {
+
+const user3 = {
     userName: "evondev",
     school: {
         name: "university",
