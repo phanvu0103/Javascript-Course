@@ -93,9 +93,9 @@ console.log("--------- *** Bài 93: Tìm hiểu for in trong object *** --------
 // for in trong object
 console.log("--------- for in trong object ---------");
 for (let key in student) {
-    //TODO: console.log(key);
-    //TODO: -> kết quả
-    /** TODO:
+    // console.log(key);
+    // -> kết quả
+    /**
      * name
      * age
      * male
@@ -120,8 +120,8 @@ for (let key in student) {
      * hello: function () {
         console.log("hello");
      */
-    //TODO: mình khai thêm 1 object mới
-    //TODO: và thấy biên key phức tạp thì mình tạo 1 biến value để lưu giá trị
+    // mình khai thêm 1 object mới
+    // và thấy biên key phức tạp thì mình tạo 1 biến value để lưu giá trị
     if (key === "name") {
         console.log("hello kitty");
     }
@@ -134,7 +134,7 @@ for (let key in student) {
 console.log(
     "--------- *** Bài 94: Tìm hiểu phương thức Object.keys *** ---------"
 );
-// TODO: object.keys(object) -> trả về 1 mảng chứa tất cả các key của object
+// object.keys(object) -> trả về 1 mảng chứa tất cả các key của object
 console.log(
     "--------- object.keys(object) -> trả về 1 mảng chứa tất cả các key của object ---------"
 );
@@ -148,7 +148,7 @@ console.log(keys.length); // -> 6
 console.log(
     "--------- *** Bài 95: Tìm hiểu phương thức Object.values *** ---------"
 );
-//TODO: object.values(object) -> trả về 1 mảng chứa tất cả các value (giá trị) của object
+// object.values(object) -> trả về 1 mảng chứa tất cả các value (giá trị) của object
 console.log(
     "--------- object.values(object) -> trả về 1 mảng chứa tất cả các value (giá trị) của object ---------"
 );
@@ -161,13 +161,13 @@ console.log(values); // -> ['evondev', 25, 'true', ƒ, true, ƒ]
 console.log(
     "--------- *** Bài 96: Tìm hiểu phương thức Object.entriess *** ---------"
 );
-// TODO: object.entries(object) -> trả về 1 mảng nested (trong mảng có mảng con [[1,2,3], [1,2]]) gồm có key và value của object [[12, "name"], ["evon", "age"]]
+// object.entries(object) -> trả về 1 mảng nested (trong mảng có mảng con [[1,2,3], [1,2]]) gồm có key và value của object [[12, "name"], ["evon", "age"]]
 console.log(
     "--------- object.entries(object) -> trả về 1 mảng chứa tất cả các key và value của object ---------"
 );
 const entries = Object.entries(student);
 console.log(entries); // -> [Array(2), Array(2), Array(2), Array(2), Array(2), Array(2)]0.
-/** TODO:
+/**
  * 0: (2) ['name', 'evondev']
 1: (2) ['age', 25]
 2: (2) ['male', 'true']
@@ -182,7 +182,7 @@ length: 6
 console.log(
     "--------- *** Bài 97: Tìm hiểu phương thức Object.assign *** ---------"
 );
-//TODO: object.assign(object1, object2) -> gộp hay sao chép dữ liệu object2 vào object1
+// object.assign(object1, object2) -> gộp hay sao chép dữ liệu object2 vào object1
 console.log(
     "---------  object.assign(object1, object2) -> gộp hay sao chép dữ liệu object2 vào object1 ---------"
 );
@@ -203,7 +203,7 @@ console.log(d); // -> {firstname: 'evon', lastname: 'dev'}
 console.log(
     "--------- *** Bài 98: Tìm hiểu phương thức Object.freeze *** ---------"
 );
-// TODO: object.freeze(object) -> đóng băng object, ngăn chặn, không thể thay đổi hay chỉnh sửa key và value giá trị của object
+// object.freeze(object) -> đóng băng object, ngăn chặn, không thể thay đổi hay chỉnh sửa key và value giá trị của object
 console.log(
     "--------- object.freeze(object) -> đóng băng object, ngăn chặn, không thể thay đổi hay chỉnh sửa key và value giá trị của object ---------"
 );
@@ -221,7 +221,7 @@ console.log(newCar); // -> {brand: 'BMW', color: 'black'}
 console.log(
     "--------- *** Bài 99: Tìm hiểu phương thức Object.seal *** ---------"
 );
-// TODO: object.seal(object) -> ngăn chặn thêm mới key, xóa key, cho phép chỉnh sửa key, value của object
+// object.seal(object) -> ngăn chặn thêm mới key, xóa key, cho phép chỉnh sửa key, value của object
 console.log(
     "--------- object.seal(object) -> ngăn chặn thêm mới key, xóa key, cho phép chỉnh sửa key, value của object ---------"
 );
@@ -292,17 +292,3 @@ const student2 = {
     }, // TODO:-> gọi là method
 };
 student2.hi();
-
-// *** *** *** *** ***
-// Bài 103: Optional chaining
-console.log("--------- *** Bài 103: Optional chaining *** ---------");
-// TODO: optional chaining: ?. -> kiểm tra xem key có tồn tại hay không, nếu có thì trả về giá trị, không thì trả về <undefined>   </undefined>
-console.log(
-    "--------- optional chaining: ?. -> kiểm tra xem key có tồn tại hay không, nếu có thì trả về giá trị, không thì trả về <undefined>   </undefined> ---------"
-);
-console.log("--------- vd1 ---------");
-console.log(student2.fullname); // -> undefined
-// console.log(student2.fullname.name); // -> undefined.name -> error: Cannot read property 'name' of undefined
-if (student2.fullname) {
-    console.log(student2.fullname.name); // TODO: -> undefined
-}

@@ -89,7 +89,9 @@ name: "evondev"
 
 // *** *** *** *** ***
 // Bài 93: Tìm hiểu for in trong object
-console.log("--------- *** Bài 93: Tìm hiểu for in trong object *** ---------");
+ console.log(
+    "--------- *** Bài 93: Tìm hiểu for in trong object *** ---------"
+);
 // for in trong object
 console.log("--------- for in trong object ---------");
 for (let key in student) {
@@ -292,17 +294,3 @@ const student2 = {
     }, // TODO:-> gọi là method
 };
 student2.hi();
-
-// *** *** *** *** ***
-// Bài 103: Optional chaining
-console.log("--------- *** Bài 103: Optional chaining *** ---------");
-// TODO: optional chaining: ?. -> kiểm tra xem key có tồn tại hay không, nếu có thì trả về giá trị, không thì trả về <undefined>   </undefined>
-console.log(
-    "--------- optional chaining: ?. -> kiểm tra xem key có tồn tại hay không, nếu có thì trả về giá trị, không thì trả về <undefined>   </undefined> ---------"
-);
-console.log("--------- vd1 ---------");
-console.log(student2.fullname); // -> undefined
-// console.log(student2.fullname.name); // -> undefined.name -> error: Cannot read property 'name' of undefined
-if (student2.fullname) {
-    console.log(student2.fullname.name); // TODO: -> undefined
-}

@@ -303,6 +303,4 @@ console.log(
 console.log("--------- vd1 ---------");
 console.log(student2.fullname); // -> undefined
 // console.log(student2.fullname.name); // -> undefined.name -> error: Cannot read property 'name' of undefined
-if (student2.fullname) {
-    console.log(student2.fullname.name); // TODO: -> undefined
-}
+if

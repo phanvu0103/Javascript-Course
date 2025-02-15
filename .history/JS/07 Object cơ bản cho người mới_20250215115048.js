@@ -93,9 +93,9 @@ console.log("--------- *** Bài 93: Tìm hiểu for in trong object *** --------
 // for in trong object
 console.log("--------- for in trong object ---------");
 for (let key in student) {
-    //TODO: console.log(key);
-    //TODO: -> kết quả
-    /** TODO:
+    // console.log(key);
+    // -> kết quả
+    /**
      * name
      * age
      * male
@@ -121,7 +121,7 @@ for (let key in student) {
         console.log("hello");
      */
     //TODO: mình khai thêm 1 object mới
-    //TODO: và thấy biên key phức tạp thì mình tạo 1 biến value để lưu giá trị
+    /TODO:/ và thấy biên key phức tạp thì mình tạo 1 biến value để lưu giá trị
     if (key === "name") {
         console.log("hello kitty");
     }
@@ -292,17 +292,3 @@ const student2 = {
     }, // TODO:-> gọi là method
 };
 student2.hi();
-
-// *** *** *** *** ***
-// Bài 103: Optional chaining
-console.log("--------- *** Bài 103: Optional chaining *** ---------");
-// TODO: optional chaining: ?. -> kiểm tra xem key có tồn tại hay không, nếu có thì trả về giá trị, không thì trả về <undefined>   </undefined>
-console.log(
-    "--------- optional chaining: ?. -> kiểm tra xem key có tồn tại hay không, nếu có thì trả về giá trị, không thì trả về <undefined>   </undefined> ---------"
-);
-console.log("--------- vd1 ---------");
-console.log(student2.fullname); // -> undefined
-// console.log(student2.fullname.name); // -> undefined.name -> error: Cannot read property 'name' of undefined
-if (student2.fullname) {
-    console.log(student2.fullname.name); // TODO: -> undefined
-}
