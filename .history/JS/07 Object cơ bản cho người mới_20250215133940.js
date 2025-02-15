@@ -354,5 +354,5 @@ function whatYourInfo2({ name, age, school }) {
 whatYourInfo2({
     school: "university ",
     age: 29,
-    name: "evondev",
-});
+    name: "e,
+})

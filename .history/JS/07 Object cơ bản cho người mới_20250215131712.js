@@ -326,33 +326,5 @@ console.log(name, age, male); // -> // TODO:  evondev 27 true
 // const male = student2.male; // -> true
 
 // // TODO:  const { name, age, male, ...rest } = student2;
-// // TODO:  console.log(rest); // -> {last-name: 'Nguyên', hi: ƒ, fullname: {name: 'Khai Khanh'}
-// NORMAL FUNCTION
-console.log("--------- NORMAL FUNCTION ---------");
-
-function whatYourInfo(name, age, school) {
-    console.log(name, age, school);
-}
-whatYourInfo("evondev", 27, "university"); // -> evondev 27 university
-// Function with object
-console.log("--------- Function with object ---------");
-
-function whatYourInfo1(obj) {
-    console.log(obj.name, obj.age, obj.school);
-}
-const newObj = {
-    school: "university",
-    age: 27,
-    name: "evondev",
-};
-whatYourInfo1(newObj); // -> evondev 27 university
-// object destructuring parameter
-console.log("--------- object destructuring parameter ---------");
-function whatYourInfo2({ name, age, school }) {
-    console.log(name, age, school);
-}
-whatYourInfo2({
-    school: "university ",
-    age: 29,
-    name: "evondev",
-});
+// // TODO:  console.log(rest); // -> {last-name: 'Nguyên', hi: ƒ, fullname: {name: 'Khai Khanh'}}
+function whatYourIn

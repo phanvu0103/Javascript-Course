@@ -351,8 +351,3 @@ console.log("--------- object destructuring parameter ---------");
 function whatYourInfo2({ name, age, school }) {
     console.log(name, age, school);
 }
-whatYourInfo2({
-    school: "university ",
-    age: 29,
-    name: "evondev",
-});

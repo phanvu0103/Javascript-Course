@@ -346,13 +346,4 @@ const newObj = {
     name: "evondev",
 };
 whatYourInfo1(newObj); // -> evondev 27 university
-// object destructuring parameter
-console.log("--------- object destructuring parameter ---------");
-function whatYourInfo2({ name, age, school }) {
-    console.log(name, age, school);
-}
-whatYourInfo2({
-    school: "university ",
-    age: 29,
-    name: "evondev",
-});
+// object destructuring

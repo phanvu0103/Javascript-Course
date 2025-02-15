@@ -335,7 +335,7 @@ function whatYourInfo(name, age, school) {
 }
 whatYourInfo("evondev", 27, "university"); // -> evondev 27 university
 // Function with object
-console.log("--------- Function with object ---------");
+console.log("---------  ---------");
 
 function whatYourInfo1(obj) {
     console.log(obj.name, obj.age, obj.school);
@@ -346,13 +346,3 @@ const newObj = {
     name: "evondev",
 };
 whatYourInfo1(newObj); // -> evondev 27 university
-// object destructuring parameter
-console.log("--------- object destructuring parameter ---------");
-function whatYourInfo2({ name, age, school }) {
-    console.log(name, age, school);
-}
-whatYourInfo2({
-    school: "university ",
-    age: 29,
-    name: "evondev",
-});

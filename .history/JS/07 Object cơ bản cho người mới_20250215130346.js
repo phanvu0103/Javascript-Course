@@ -312,47 +312,4 @@ if (student2.fullname) {
     }
     // console.log(student2.fullname.name); // TODO: -> undefined ko có key name trong fullname nên trả về undefined
 }
-// student2.fullname?.name -> kiểm tra xem key fullname có tồn tại hay không, nếu có thì trả về giá trị, không thì trả về <undefined>
-console.log(student2.fullname?.name); // -> Khai Khanh
-
-// *** *** *** *** ***
-// Bài 104: Destructuring object
-console.log("--------- *** Bài 104: Destructuring object *** ---------");
-// TODO: destructuring object: lấy giá trị từ object và gán vào biến
-const { name, age, male } = student2;
-console.log(name, age, male); // -> // TODO:  evondev 27 true
-// const name = student2.name; // -> evondev
-// const age = student2.age; // -> 27
-// const male = student2.male; // -> true
-
-// // TODO:  const { name, age, male, ...rest } = student2;
-// // TODO:  console.log(rest); // -> {last-name: 'Nguyên', hi: ƒ, fullname: {name: 'Khai Khanh'}
-// NORMAL FUNCTION
-console.log("--------- NORMAL FUNCTION ---------");
-
-function whatYourInfo(name, age, school) {
-    console.log(name, age, school);
-}
-whatYourInfo("evondev", 27, "university"); // -> evondev 27 university
-// Function with object
-console.log("--------- Function with object ---------");
-
-function whatYourInfo1(obj) {
-    console.log(obj.name, obj.age, obj.school);
-}
-const newObj = {
-    school: "university",
-    age: 27,
-    name: "evondev",
-};
-whatYourInfo1(newObj); // -> evondev 27 university
-// object destructuring parameter
-console.log("--------- object destructuring parameter ---------");
-function whatYourInfo2({ name, age, school }) {
-    console.log(name, age, school);
-}
-whatYourInfo2({
-    school: "university ",
-    age: 29,
-    name: "evondev",
-});
+// student2.fullname?.name? 

@@ -352,7 +352,7 @@ function whatYourInfo2({ name, age, school }) {
     console.log(name, age, school);
 }
 whatYourInfo2({
-    school: "university ",
+    school: "university freedom",
     age: 29,
-    name: "evondev",
-});
+    name: "l",
+})
