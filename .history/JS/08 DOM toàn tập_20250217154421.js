@@ -115,7 +115,7 @@ console.log(
 );
 // document.getElementsByClassName("header") -> trả về một HTMLCollection chứa danh sách các node, nếu không có thì trả về empty [] HTMLCollection.
 console.log(
-    "--------- document.getElementsByClassName() -> trả về một HTMLCollection chứa danh sách các node, nếu không có thì trả về empty [] HTMLCollection. ---------"
+    "--------- document.getElementsByClassName() -> trả về một HTMLCollection chứa danh sách các node, nếu không có thì trả về empty HTMLCollection. ---------"
 );
 const classNode = document.getElementsByClassName("header");
 console.log(classNode); // HTMLCollection(1) [div.header]

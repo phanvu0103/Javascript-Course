@@ -95,29 +95,11 @@ console.log("--------- lấy được nhiều select---------");
 const multiNode1 = document.querySelectorAll(".item");
 console.log(multiNode1); // NodeList(5) [li.item, li.item, li.item, li.item, li.item]
 // nó giống Array nhưng không phải Array, nên không thể sử dụng các phương thức của Array như: push, pop, shift,
-
+// nó có thể loop: map, filter, reduce, forEach...
 console.log("--------- nếu ko có select -> NodeList(0) [] ---------");
 const multiNode2 = document.querySelectorAll(".items");
 console.log(multiNode2); // NodeList(0) []
-// nó có thể loop và sử dụng forEach.. để lấy ra từng node.
-for (let i = 0; i < multiNode1.length; i++) {
-    console.log(multiNode1[i]); // <li class="item">...</li> * 5
-}
 //
 // *** *** *** *** ***
 // Bài 112: document.getElementsByClassName
-console.log(
-    "--------- *** Bài 112: document.getElementsByClassName  *** ---------"
-);
-// 3. document.getElementsByClassName("class") -> trả về 1 mảng các node nếu tồn tại class, ngược lại trả về mảng rỗng.
-console.log(
-    "--------- document.getElementsByClassName() -> trả về 1 mảng các node nếu tồn tại class, ngược lại trả về mảng rỗng. ---------"
-);
-// document.getElementsByClassName("header") -> trả về một HTMLCollection chứa danh sách các node, nếu không có thì trả về empty [] HTMLCollection.
-console.log(
-    "--------- document.getElementsByClassName() -> trả về một HTMLCollection chứa danh sách các node, nếu không có thì trả về empty [] HTMLCollection. ---------"
-);
-const classNode = document.getElementsByClassName("header");
-console.log(classNode); // HTMLCollection(1) [div.header]
-const classNode1 = document.getElementsByClassName("item");
-console.log(classNode1); // HTMLCollection(5) [li.item, li.item, li.item, li.item, li.item]
+console.log("--------- *** Bài 112: document.getElementsByClassName  *** ---------");

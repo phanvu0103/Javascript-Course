@@ -113,11 +113,8 @@ console.log(
 console.log(
     "--------- document.getElementsByClassName() -> trả về 1 mảng các node nếu tồn tại class, ngược lại trả về mảng rỗng. ---------"
 );
-// document.getElementsByClassName("header") -> trả về một HTMLCollection chứa danh sách các node, nếu không có thì trả về empty [] HTMLCollection.
+// document.getElementsByClassName("header") -> trả về một HTMLCollection chứa danh sách các node, nếu không có thì trả về empty HTMLCollection.
 console.log(
-    "--------- document.getElementsByClassName() -> trả về một HTMLCollection chứa danh sách các node, nếu không có thì trả về empty [] HTMLCollection. ---------"
+    "--------- document.getElementsByClassName() -> trả về một HTMLCollection chứa danh sách các node, nếu không có thì trả về empty HTMLCollection. ---------"
 );
-const classNode = document.getElementsByClassName("header");
-console.log(classNode); // HTMLCollection(1) [div.header]
-const classNode1 = document.getElementsByClassName("item");
-console.log(classNode1); // HTMLCollection(5) [li.item, li.item, li.item, li.item, li.item]
+const 
