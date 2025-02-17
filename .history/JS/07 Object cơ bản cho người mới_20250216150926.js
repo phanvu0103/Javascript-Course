@@ -385,56 +385,31 @@ console.log(isObject(new Date())); // -> true
 console.log("--------- *** Bài 106: Bài tập chương 7 số 2 *** ---------");
 // {a: 1, b: 2, } -> [['a', 1], ['b', 2]]
 console.log("--------- {a: 1, b: 2, } -> [['a', 1], ['b', 2]] ---------");
-console.log("--------- Cách 1 ---------");
+function objectToArray(object) {
+    // check nếu ko phải object thì dừng
+    if (!isObject(object)) return;
+    // nếu là object thì xử lý
+    return Object.entries(object);
+    const value = Object.keys(object).map((item) => [item, object[item]]);
+    return value;
+}
+console.log(objectToArray({ a: 1, b: 2 })); // -> [['a', 1], ['b', 2]]
+
+function objectToArray(object) {
+    // check nếu ko phải object thì dừng
+    if (!isObject(object)) return;
+    // nếu là object thì xử lý
+    const value = Object.keys(object).map((item) => [item, object[item]]);
+    return value;
+}
+console.log(objectToArray({ a: 2, b: 3 }));
 
 function objectToArray(object) {
     // check nếu ko phải object thì dừng
     if (!isObject(object)) return;
     // nếu là object thì xử lý
     return Object.entries(object);
-}
-console.log(objectToArray({ a: 1, b: 2 })); // -> [['a', 1], ['b', 2]]
-console.log("--------- Cách 2 ---------");
-
-function objectToArray1(object) {
-    // check nếu ko phải object thì dừng
-    if (!isObject(object)) return;
-    // nếu là object thì xử lý
-    // object là key, object[key] là value
-    const value = Object.keys(object).map((key) => [key, object[key]]);
+    const value = Object.keys(object).map((item) => [item, object[item]]);
     return value;
 }
-console.log(objectToArray1({ a: 1, b: 2 }));
-console.log("--------- Cách 3 ---------");
-function objectToArray2(object) {
-    // check nếu ko phải object thì dừng
-    if (!isObject(object)) return;
-    // nếu là object thì xử lý
-    let result = [];
-    for (let key in object) {
-        // hasOwnProperty(key): kiểm tra key có trong object hay không, nếu object chứ key thì trả về true, không thì false
-        if (object.hasOwnProperty(key)) {
-            result.push([key, object[key]]);
-        }
-    }
-    return result;
-}
-console.log(objectToArray2({ a: 1, b: 2 }));
-
-// *** *** *** *** ***
-// Bài 107: Bài tập chương 7 số 3
-console.log("--------- *** Bài 107: Bài tập chương 7 số 3 *** ---------");
-// without
-// ({a : 1, b : 2 }, ['b']) -> {a: 1}
-function without(object, ...keys) {
-    // keys cần xóa
-    // check nếu ko phải object thì dừng
-    if (!isObject(object)) return;
-    // nếu là object thì xử lý
-    // object là key, object[key] là value
-    for (let key of keys) {
-        delete object[key];
-    }
-    return object;
-}
-console.log(without({ a: 1, b: 2 }, ["b"])); // -> {a: 1}
+console.log(objectToArray({ a: 2, b: 3 }));

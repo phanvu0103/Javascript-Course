@@ -426,8 +426,7 @@ console.log(objectToArray2({ a: 1, b: 2 }));
 console.log("--------- *** Bài 107: Bài tập chương 7 số 3 *** ---------");
 // without
 // ({a : 1, b : 2 }, ['b']) -> {a: 1}
-function without(object, ...keys) {
-    // keys cần xóa
+function without(object, keys) {
     // check nếu ko phải object thì dừng
     if (!isObject(object)) return;
     // nếu là object thì xử lý
@@ -437,4 +436,3 @@ function without(object, ...keys) {
     }
     return object;
 }
-console.log(without({ a: 1, b: 2 }, ["b"])); // -> {a: 1}

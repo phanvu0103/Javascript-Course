@@ -422,19 +422,5 @@ function objectToArray2(object) {
 console.log(objectToArray2({ a: 1, b: 2 }));
 
 // *** *** *** *** ***
-// Bài 107: Bài tập chương 7 số 3
-console.log("--------- *** Bài 107: Bài tập chương 7 số 3 *** ---------");
-// without
-// ({a : 1, b : 2 }, ['b']) -> {a: 1}
-function without(object, ...keys) {
-    // keys cần xóa
-    // check nếu ko phải object thì dừng
-    if (!isObject(object)) return;
-    // nếu là object thì xử lý
-    // object là key, object[key] là value
-    for (let key of keys) {
-        delete object[key];
-    }
-    return object;
-}
-console.log(without({ a: 1, b: 2 }, ["b"])); // -> {a: 1}
+// Bài 107: Bài tập chương 7 số 
+console.log("--------- *** Bài 106: Bài tập chương 7 số 2 *** ---------");
