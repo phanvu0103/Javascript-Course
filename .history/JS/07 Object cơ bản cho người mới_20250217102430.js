@@ -468,15 +468,9 @@ console.log("--------- {a : 1, b : 2}, {a: 1, b: 2, c : 3} -> false ---------");
 function isEqualObject(obj1, obj2) {
     // check nếu ko phải object thì dừng
     // check keys lenght of 2 object
-    const objkey1 = Object.keys(obj1);
-    const objkey2 = Object.keys(obj2);
+    const keys1 = Object.keys(obj1);
+    const keys2 = Object.keys(obj2);
     if (objkey1.length !== objkey2.length) return false;
-    //check values of 2 object
-    // [a, b] -> object[a] || object[b]
-    const result = objkey1.every((key) => obj1[key] === obj2[key]);
-    return result;
+    //che value
 }
-console.log("--------- {a : 1, b : 2}, {a: 1, b: 2} -> true ---------");
 console.log(isEqualObject({ a: 1, b: 2 }, { a: 1, b: 2 })); // -> true
-console.log("--------- {a : 1, b : 2}, {a: 1, b: 2, c : 3} -> false ---------");
-console.log(isEqualObject({ a: 1, b: 2 }, { a: 1, b: 2, c: 3 })); // -> false

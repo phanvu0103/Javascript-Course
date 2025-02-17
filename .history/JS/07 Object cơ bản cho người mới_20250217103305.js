@@ -474,9 +474,6 @@ function isEqualObject(obj1, obj2) {
     //check values of 2 object
     // [a, b] -> object[a] || object[b]
     const result = objkey1.every((key) => obj1[key] === obj2[key]);
-    return result;
+    
 }
-console.log("--------- {a : 1, b : 2}, {a: 1, b: 2} -> true ---------");
 console.log(isEqualObject({ a: 1, b: 2 }, { a: 1, b: 2 })); // -> true
-console.log("--------- {a : 1, b : 2}, {a: 1, b: 2, c : 3} -> false ---------");
-console.log(isEqualObject({ a: 1, b: 2 }, { a: 1, b: 2, c: 3 })); // -> false

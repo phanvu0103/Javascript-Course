@@ -478,5 +478,4 @@ function isEqualObject(obj1, obj2) {
 }
 console.log("--------- {a : 1, b : 2}, {a: 1, b: 2} -> true ---------");
 console.log(isEqualObject({ a: 1, b: 2 }, { a: 1, b: 2 })); // -> true
-console.log("--------- {a : 1, b : 2}, {a: 1, b: 2, c : 3} -> false ---------");
 console.log(isEqualObject({ a: 1, b: 2 }, { a: 1, b: 2, c: 3 })); // -> false
