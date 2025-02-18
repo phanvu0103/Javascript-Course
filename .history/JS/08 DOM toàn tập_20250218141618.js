@@ -168,5 +168,4 @@ console.log("--------- *** Bài 116: setAttribute  *** ---------");
 // 5. Selector setAttribute("attribute", "value") -> thiết lập giá trị cho thuộc tính của phần tử.
 // thêm target="_blank" vào tất cả các link
 link.setAttribute("target", "_blank");
-const listlink = document.querySelectorAll("a.link");
-listlink.forEach((item) => item.setAttribute("target", "_blank"));
+const 

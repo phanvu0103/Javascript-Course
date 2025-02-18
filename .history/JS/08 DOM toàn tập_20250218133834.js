@@ -145,28 +145,3 @@ const idNode = document.getElementById("spinner");
 console.log(idNode); // <div id="spinner">...</div>
 const idNode1 = document.getElementById("spinners");
 console.log(idNode1); // null
-// hay sử dụng document.querySelector() thay cho document.getElementBy()
-// hay sư dụng document.querySelectorAll() thay cho document.getElementsByClassName()
-//
-// *** *** *** *** ***
-// Bài 115: getAttribute
-console.log("--------- *** Bài 115: getAttribute  *** ---------");
-// 4. Selector getAttribute("attribute") -> lấy ra giá trị của attriute seletor trả về giá trị của thuộc tính của phần tử.
-// Attribute: là các thuộc tính của phần tử như: id, class, src, href, alt, title, style, data-*,...
-// seletor là 1 cái không phải là 1 list
-const link = document.querySelector(".link");
-console.log(link.getAttribute("href")); // https://www.google.com
-const li = document.querySelectorAll(".item");
-li.forEach((item) => {
-    console.log(item.getAttribute("class")); // item
-});
-console.log(li); // NodeList(5) [li.item, li.item, li.item, li.item, li.item]
-//
-// *** *** *** *** ***
-// Bài 116: setAttribute
-console.log("--------- *** Bài 116: setAttribute  *** ---------");
-// 5. Selector setAttribute("attribute", "value") -> thiết lập giá trị cho thuộc tính của phần tử.
-// thêm target="_blank" vào tất cả các link
-link.setAttribute("target", "_blank");
-const listlink = document.querySelectorAll("a.link");
-listlink.forEach((item) => item.setAttribute("target", "_blank"));

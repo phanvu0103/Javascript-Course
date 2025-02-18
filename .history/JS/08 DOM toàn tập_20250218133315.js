@@ -125,48 +125,11 @@ console.log(classNode1); // HTMLCollection(5) [li.item, li.item, li.item, li.ite
 // *** *** *** *** ***
 // Bài 113: getElementsByTagName
 console.log("--------- *** Bài 113: getElementsByTagName  *** ---------");
-// document.getElementsByTagName("tagName") -> trả về 1 mảng các node nếu tồn tại tag, ngược lại trả về mảng rỗng. trã về HTMLCollection chứa danh sách các node, nếu không có thì trả về empty [] HTMLCollection.
+// document.getElementsByTagName("tagName") -> trả về 1 mảng các node nếu tồn tại tag, ngược lại trả về mảng rỗng.
 console.log(
     "--------- document.getElementsByTagName() -> trả về 1 mảng các node nếu tồn tại tag, ngược lại trả về mảng rỗng. ---------"
 );
 const classNode2 = document.getElementsByTagName("li");
 console.log(classNode2); // HTMLCollection(5) [li.item, li.item, li.item, li.item, li.item]
-const classNode3 = document.getElementsByTagName("h1");
-console.log(classNode3); // HTMLCollection(1) [h1]
-//
-// *** *** *** *** ***
-// Bài 114: getElementById
-console.log("--------- *** Bài 114: getElementById  *** ---------");
-// document.getElementById("id") -> trả về 1 node nếu tồn tại id, ngược lại trả về null.
-console.log(
-    "--------- document.getElementById() -> trả về 1 node nếu tồn tại id, ngược lại trả về null. ---------"
-);
-const idNode = document.getElementById("spinner");
-console.log(idNode); // <div id="spinner">...</div>
-const idNode1 = document.getElementById("spinners");
-console.log(idNode1); // null
-// hay sử dụng document.querySelector() thay cho document.getElementBy()
-// hay sư dụng document.querySelectorAll() thay cho document.getElementsByClassName()
-//
-// *** *** *** *** ***
-// Bài 115: getAttribute
-console.log("--------- *** Bài 115: getAttribute  *** ---------");
-// 4. Selector getAttribute("attribute") -> lấy ra giá trị của attriute seletor trả về giá trị của thuộc tính của phần tử.
-// Attribute: là các thuộc tính của phần tử như: id, class, src, href, alt, title, style, data-*,...
-// seletor là 1 cái không phải là 1 list
-const link = document.querySelector(".link");
-console.log(link.getAttribute("href")); // https://www.google.com
-const li = document.querySelectorAll(".item");
-li.forEach((item) => {
-    console.log(item.getAttribute("class")); // item
-});
-console.log(li); // NodeList(5) [li.item, li.item, li.item, li.item, li.item]
-//
-// *** *** *** *** ***
-// Bài 116: setAttribute
-console.log("--------- *** Bài 116: setAttribute  *** ---------");
-// 5. Selector setAttribute("attribute", "value") -> thiết lập giá trị cho thuộc tính của phần tử.
-// thêm target="_blank" vào tất cả các link
-link.setAttribute("target", "_blank");
-const listlink = document.querySelectorAll("a.link");
-listlink.forEach((item) => item.setAttribute("target", "_blank"));
+const classNode2 = document.getElementsByTagName("h1");
+console.log(classNode2); // HTMLCollection(5) [li.item, li.item, li.item, li.item, li.item]

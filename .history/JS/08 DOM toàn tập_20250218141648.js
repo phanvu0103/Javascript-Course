@@ -169,4 +169,3 @@ console.log("--------- *** Bài 116: setAttribute  *** ---------");
 // thêm target="_blank" vào tất cả các link
 link.setAttribute("target", "_blank");
 const listlink = document.querySelectorAll("a.link");
-listlink.forEach((item) => item.setAttribute("target", "_blank"));
