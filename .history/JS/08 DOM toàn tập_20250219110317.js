@@ -185,43 +185,5 @@ p.removeAttribute("style");
 console.log("--------- *** Bài 118: hasAttribute  *** ---------");
 // 7. Selector.hasAttribute("attribute") -> kiểm tra xem (selector) phần tử có thuộc tính đó không, nếu có trả về true, ngược lại trả về false.
 // kiểm tra xem phần tử có thuộc tính target không
-console.log(p.hasAttribute("class")); // false
-console.log(p.hasAttribute("id")); // true
-if (p.hasAttribute("id")) {
-    console.log("Có thuộc tính id");
-} else {
-    console.log("Không có thuộc tính id");
-} // Có thuộc tính id
-//  nếu có thì thực hiện 1 hành động nào đó
-//  nếu không có
-//
-// *** *** *** *** ***
-// Bài 119: textContent
-console.log("--------- *** Bài 119: textContent  *** ---------");
-// 8. Selector.textContent -> lấy hoặc thiết lập nội dung văn bản của phần tử.
-// lấy nội dung của phần tử
-// thay đổi nội dung của phần tử
-const spinner = document.querySelector("#spinner");
-console.log(spinner.textContent); // Spinner
-spinner.textContent = "Loading...";
-console.log(spinner.textContent); // Loading...
-//
-// *** *** *** *** ***
-// Bài 120: innerText
-console.log("--------- *** Bài 120: innerText  *** ---------");
-// 9. Selector.innerText -> lấy hoặc thiết lập nội dung văn bản của phần tử.
-// lấy nội dung của phần tử
-const spinner1 = document.querySelector("#spinner1");
-console.log("--------- textContent ---------");
-
-console.log(spinner1.textContent); // Spinner:
-// Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quod,
-
-// Hello New
-// debitis error nesciunt deleniti sit ad dolores mollitia. Cupiditate
-// provident voluptatibus adipisci reprehenderit voluptas labore iure
-// architecto quas sint magni.
-console.log("--------- innerText ---------");
-
-console.log(spinner1.innerText); // Spinner:
-// index.html:1 Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.Understand this errorAI
+console.log(p.hasAttribute("class"));
+console.log(p.hasAttribute("id"));

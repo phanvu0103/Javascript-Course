@@ -221,7 +221,7 @@ console.log(spinner1.textContent); // Spinner:
 // debitis error nesciunt deleniti sit ad dolores mollitia. Cupiditate
 // provident voluptatibus adipisci reprehenderit voluptas labore iure
 // architecto quas sint magni.
-console.log("--------- innerText ---------");
+console.log("---------  ---------");
 
 console.log(spinner1.innerText); // Spinner:
 // index.html:1 Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.Understand this errorAI

@@ -209,19 +209,4 @@ console.log(spinner.textContent); // Loading...
 // *** *** *** *** ***
 // Bài 120: innerText
 console.log("--------- *** Bài 120: innerText  *** ---------");
-// 9. Selector.innerText -> lấy hoặc thiết lập nội dung văn bản của phần tử.
-// lấy nội dung của phần tử
-const spinner1 = document.querySelector("#spinner1");
-console.log("--------- textContent ---------");
 
-console.log(spinner1.textContent); // Spinner:
-// Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quod,
-
-// Hello New
-// debitis error nesciunt deleniti sit ad dolores mollitia. Cupiditate
-// provident voluptatibus adipisci reprehenderit voluptas labore iure
-// architecto quas sint magni.
-console.log("--------- innerText ---------");
-
-console.log(spinner1.innerText); // Spinner:
-// index.html:1 Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.Understand this errorAI
