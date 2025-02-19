@@ -235,19 +235,3 @@ console.log("--------- *** Bài 121: innerHTML  *** ---------");
 spinner1.innerText = `div class="demo">Hello New</div>`;
 // debitis error nesciunt deleniti sit ad dolores mollitia. Cupiditate`
 console.log(spinner1.innerHTML); // <div class="demo">Hello New</div>
-// provident voluptatibus adipisci reprehenderit voluptas labore iure
-// architecto quas sint magni.
-spinner1.innerHTML = `<div class="demo">Hello New</div>`;
-//
-// *** *** *** *** ***
-// Bài 122: Các phương thức về class phần 1
-console.log(
-    "--------- *** Bài 122: Các phương thức về Class phần 1  *** ---------"
-);
-// 11. Selector.classList.add("abc") -> trả về một DOMTokenList chứa danh sách các class của phần tử.
-const container = document.querySelector(".container");
-container.classList.add("is-active"); // thêm class is-active
-// console.log(container.classList); // DOMTokenList(2) ["container", "is-active"]
-// 12. Selector.classList.remove("abc") -> xóa class khỏi phần tử.
-container.classList.remove("container"); // xóa class container
-// 13. Selector.classList.toggle("abc") -> thêm class nếu không có, xóa class nếu có.

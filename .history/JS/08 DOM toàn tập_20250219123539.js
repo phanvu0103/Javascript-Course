@@ -246,8 +246,5 @@ console.log(
 );
 // 11. Selector.classList.add("abc") -> trả về một DOMTokenList chứa danh sách các class của phần tử.
 const container = document.querySelector(".container");
-container.classList.add("is-active"); // thêm class is-active
-// console.log(container.classList); // DOMTokenList(2) ["container", "is-active"]
+container.classList.add("is-active");
 // 12. Selector.classList.remove("abc") -> xóa class khỏi phần tử.
-container.classList.remove("container"); // xóa class container
-// 13. Selector.classList.toggle("abc") -> thêm class nếu không có, xóa class nếu có.
