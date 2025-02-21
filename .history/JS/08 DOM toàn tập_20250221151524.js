@@ -340,14 +340,14 @@ console.log("--------- làm html css trong index2 ---------");
 console.log("--------- *** Bài 125: document.creatElement  *** ---------");
 // crud
 // thêm xóa sửa node tròn javascript
-// 16. Tạo ra Elemet trong Javascript document.creatElement("elemet: tag")
+// 01. Tạo ra Elemet trong Javascript document.creatElement("elemet: tag")
 console.log(
-    "--------- 16. Tạo ra Elemet trong Javascript document.creatElement(elemet: tag) ---------"
+    "--------- 01. Tạo ra Elemet trong Javascript document.creatElement(elemet: tag) ---------"
 );
 const div = document.createElement("div");
 // -> chưa hiện ra ngoài html mình phải qua bước thứ 2
-// 17. selector.appendChild
-console.log("--------- 17. selector.appendChild ---------");
+// 02. selector.appendChild
+console.log("--------- 02. selector.appendChild ---------");
 // selector.appendChild
 // document.body -> thẻ body => trường hơpk này đặc biệt
 // document.querySelector("body"); -> trường hợp này hay dùng còn ở trên là đặc biệt
@@ -404,48 +404,22 @@ body.appendChild(card);
 // *** *** *** *** ***
 // Bài 127: createTextNode
 console.log("--------- *** Bài 127: createTextNode  *** ---------");
-// 18. document.createTextNode:thêm đoạn văn vào thẻ như h1 h2 h3...
+// 03. document.createTextNode:thêm đoạn văn vào thẻ như h1 h2 h3...
 console.log(
-    "--------- 18. document.createTextNode:thêm đoạn văn vào thẻ như h1 h2 h3... ---------"
+    "--------- 03. document.createTextNode:thêm đoạn văn vào thẻ như h1 h2 h3... ---------"
 );
 const text = document.createTextNode("Hello createTextNode");
 body.appendChild(text);
 const h2 = document.createElement("h2");
 body.appendChild(h2);
 h2.appendChild(text);
-console.log(h2.appendChild(text)); // -> <h2>"Hello createTextNode"</h2>
 //
 //
 // *** *** *** *** ***
 // Bài 128: cloneNode
 console.log("--------- *** Bài 128: cloneNode  *** ---------");
 console.log(
-    "--------- 19. cloneNode: là bản sao trước đó để làm nhiệm vụ khác ---------"
+    "--------- 04. document.cloneNode: là bản sao trước đó để làm nhiệm vụ khác ---------"
 );
-// 19. cloneNode là bản sao trước đó để làm nhiệm vụ khác
-const h2Clone = h2.cloneNode(true);
-body.appendChild(h2Clone);
-console.log(body.appendChild(h2Clone)); // copy thêm h2 mình đã tạo trên -> <h2>"Hello createTextNode"</h2>
-//
-//
-// *** *** *** *** ***
-// Bài 129: hasChildNodes
-console.log("--------- *** Bài 129: hasChildNodes  *** ---------");
-("--------- 20. hasChildNodes: kiểm tra element của chúng ta có phần tử con hay ko (child) có trả về => true, ko thì trả về => false ---------");
-// 20. hasChildNodes: kiểm tra element của chúng ta có phần tử con hay ko (child) có trả về => true, ko thì trả về => false
-console.log(h2.hasChildNodes()); // -> true
-console.log(document.querySelector("h3").hasChildNodes());
-//
-//
-// *** *** *** *** ***
-// Bài 130: insertAdjacentText
-console.log("--------- *** Bài 130: insertAdjacentText  *** ---------");
-// 21. insertAdjacentText: chèn text vào element
-console.log("--------- 21. insertAdjacentText ---------");
-const h3 = document.querySelector("h3");
-// h3.insertAdjacentText("position", "text: là chuỗi")
-// position: beforebegin, afterbegin, beforeend, afterend
-h3.insertAdjacentText("beforebegin", "begin");
-h3.insertAdjacentText("afterbegin", "afterbegin");
-h3.insertAdjacentText("beforeend", "beforeend");
-h3.insertAdjacentText("afterend", "afterend");
+// 04. document.cloneNode là bản sao trước đó để làm nhiệm vụ khác
+const h2Clone = document

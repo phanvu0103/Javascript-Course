@@ -440,12 +440,5 @@ console.log(document.querySelector("h3").hasChildNodes());
 // *** *** *** *** ***
 // Bài 130: insertAdjacentText
 console.log("--------- *** Bài 130: insertAdjacentText  *** ---------");
-// 21. insertAdjacentText: chèn text vào element
+// 21. insertAdjacentText: chèn text vào elemen
 console.log("--------- 21. insertAdjacentText ---------");
-const h3 = document.querySelector("h3");
-// h3.insertAdjacentText("position", "text: là chuỗi")
-// position: beforebegin, afterbegin, beforeend, afterend
-h3.insertAdjacentText("beforebegin", "begin");
-h3.insertAdjacentText("afterbegin", "afterbegin");
-h3.insertAdjacentText("beforeend", "beforeend");
-h3.insertAdjacentText("afterend", "afterend");

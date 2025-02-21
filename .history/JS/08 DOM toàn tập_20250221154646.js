@@ -431,7 +431,7 @@ console.log(body.appendChild(h2Clone)); // copy thêm h2 mình đã tạo trên 
 // *** *** *** *** ***
 // Bài 129: hasChildNodes
 console.log("--------- *** Bài 129: hasChildNodes  *** ---------");
-("--------- 20. hasChildNodes: kiểm tra element của chúng ta có phần tử con hay ko (child) có trả về => true, ko thì trả về => false ---------");
+("--------- 20. hasChildNodes: kiểm tra elemmet của chúng ta có phần tử con hay ko (child) có trả về => true, ko thì trả về => false ---------");
 // 20. hasChildNodes: kiểm tra element của chúng ta có phần tử con hay ko (child) có trả về => true, ko thì trả về => false
 console.log(h2.hasChildNodes()); // -> true
 console.log(document.querySelector("h3").hasChildNodes());
@@ -440,12 +440,5 @@ console.log(document.querySelector("h3").hasChildNodes());
 // *** *** *** *** ***
 // Bài 130: insertAdjacentText
 console.log("--------- *** Bài 130: insertAdjacentText  *** ---------");
-// 21. insertAdjacentText: chèn text vào element
-console.log("--------- 21. insertAdjacentText ---------");
-const h3 = document.querySelector("h3");
-// h3.insertAdjacentText("position", "text: là chuỗi")
-// position: beforebegin, afterbegin, beforeend, afterend
-h3.insertAdjacentText("beforebegin", "begin");
-h3.insertAdjacentText("afterbegin", "afterbegin");
-h3.insertAdjacentText("beforeend", "beforeend");
-h3.insertAdjacentText("afterend", "afterend");
+// 24 insertAdjacentText
+console.log("--------- insertAdjacentText ---------");
