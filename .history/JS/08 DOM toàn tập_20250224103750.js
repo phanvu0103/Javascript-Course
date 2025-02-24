@@ -569,15 +569,5 @@ console.log("--------- nextSibling ---------");
 console.log(span.nextSibling); // -> # text
 console.log("--------- previousSibling ---------");
 console.log(span.previousSibling); // -> # text
-console.log("--------- 30. nextElementSibling.nextElementSibling---------");
-const nextSpan1 = span.nextElementSibling.nextElementSibling;
-console.log(nextSpan1); // ->  <span class="span2">defgi</span>
-//
-//
-// *** *** *** *** ***
-//  Bài 136: Bài tập Modal phần 1
-console.log("--------- *** Bài 136: Bài tập Modal phần 1  *** ---------");
-// Active modal
-console.log("--------- Active modal ---------");
-// Bài tập 1:
-console.log("---------  Bài tập 1: ---------");
+console.log("---------  ---------");
+const nextSpan = span.nextElementSibling;

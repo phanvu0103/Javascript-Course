@@ -575,9 +575,5 @@ console.log(nextSpan1); // ->  <span class="span2">defgi</span>
 //
 //
 // *** *** *** *** ***
-//  Bài 136: Bài tập Modal phần 1
-console.log("--------- *** Bài 136: Bài tập Modal phần 1  *** ---------");
-// Active modal
-console.log("--------- Active modal ---------");
-// Bài tập 1:
-console.log("---------  Bài tập 1: ---------");
+//  Bài 135: Traversing DOM phần 3
+console.log("--------- *** Bài 135: Traversing DOM phần 3  *** ---------");

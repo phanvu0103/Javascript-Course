@@ -500,7 +500,7 @@ document.body.insertAdjacentHTML("beforeend", template);
 //
 // *** *** *** *** ***
 // Bài 133: Traversing DOM phần 1
-console.log("--------- *** Bài 133: Traversing DOM phần 1  *** ---------");
+console.log("--------- *** Bài133: Traversing DOM phần 1  *** ---------");
 // 23.  Traversing DOM phần 1: parentNode, parentElement, removedChild
 console.log(
     "--------- 23.  Traversing DOM phần 1: parentNode, parentElement, removedChild ---------"
@@ -525,8 +525,8 @@ console.log("--------- removedChild ---------");
 //
 //
 // *** *** *** *** ***
-//  Bài 134: Traversing DOM phần 2
-console.log("--------- *** Bài 134: Traversing DOM phần 2  *** ---------");
+//                                
+console.log("--------- *** Bài 24: Traversing DOM phần 2  *** ---------");
 // 24.  Traversing DOM phần 2: nextElementSibling, previousElementSibling
 console.log(
     "--------- 24.  Traversing DOM phần 2: nextElementSibling, previousElementSibling, childNode vs children, firstChild vs firstElementChild, lastChild vs lastElementChild ---------"
@@ -559,25 +559,3 @@ console.log("--------- lastChild ---------");
 console.log(span.lastChild); // -> # text
 console.log("--------- lastElementChild ---------");
 console.log(span.lastElementChild); // ->  <strong class="strong">evondev</strong>
-//
-//
-// *** *** *** *** ***
-//  Bài 135: Traversing DOM phần 3
-console.log("--------- *** Bài 135: Traversing DOM phần 3  *** ---------");
-console.log("--------- 29.nextSibling & previousSibling  ---------");
-console.log("--------- nextSibling ---------");
-console.log(span.nextSibling); // -> # text
-console.log("--------- previousSibling ---------");
-console.log(span.previousSibling); // -> # text
-console.log("--------- 30. nextElementSibling.nextElementSibling---------");
-const nextSpan1 = span.nextElementSibling.nextElementSibling;
-console.log(nextSpan1); // ->  <span class="span2">defgi</span>
-//
-//
-// *** *** *** *** ***
-//  Bài 136: Bài tập Modal phần 1
-console.log("--------- *** Bài 136: Bài tập Modal phần 1  *** ---------");
-// Active modal
-console.log("--------- Active modal ---------");
-// Bài tập 1:
-console.log("---------  Bài tập 1: ---------");
