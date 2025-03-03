@@ -596,6 +596,4 @@ console.log("--------- 08.2 Dom bài tập html css JS  ---------");
 //
 // *** *** *** *** ***
 //  Bài 138: Bài tập Notification phần 1
-console.log(
-    "--------- *** Bài 138: Bài tập Notification phần 1  *** ---------"
-);
+console.log("--------- *** Bài 138: Bài tập Notification phần 1  *** ---------");
