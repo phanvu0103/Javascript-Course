@@ -615,14 +615,5 @@ console.log(
     "--------- *** Bài 140: Các thuộc tính liên quan tới offset  *** ---------"
 );
 console.log(
-    "--------- 31.  offsetWidth, offsetHeight, offsetLeft, offsetParent, offsetTop,  ---------"
+    "--------- 31.  offsetWidth, offsetHeight, offsetLeft,  offsetParent, offsetTop,  ---------"
 );
-function log(value) {
-    console.log(value);
-}
-const boxed = document.querySelector(".boxed"); // -> <div class="boxed">...</div>
-log(boxed.offsetWidth); // -> 200 độ rộng của phần tử
-log(boxed.offsetHeight); // -> 200 chiều cao của phần tử
-log(boxed.offsetLeft); // -> 0 vị trí trái của phần tử
-log(boxed.offsetTop); // -> 208 vị trí trên của phần tử
-log(boxed.offsetParent); // -> <body>...</body> lấy phần tử của cha để lấy giá trị phần tử cha
