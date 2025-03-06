@@ -694,7 +694,7 @@ for (let i = 0; i < li2.length; i++) {
 //
 //
 // *** *** *** *** ***
-// 
+// Bài 145: parentNode vs parentElement
 console.log(
     "--------- *** Bài 145: parentNode vs parentElement  *** ---------"
 );

@@ -694,7 +694,7 @@ for (let i = 0; i < li2.length; i++) {
 //
 //
 // *** *** *** *** ***
-// 
+// Bài 145: parentNode vs parentElement
 console.log(
     "--------- *** Bài 145: parentNode vs parentElement  *** ---------"
 );
@@ -714,20 +714,9 @@ console.log(
     "--------- *** Bài 146: document.title vs document.head  *** ---------"
 );
 console.log(
-    "--------- 37. document.title: thay đổi title trong HTML, thẻ title của web ---------"
+    "--------- 37. document.title: thay đổi title trong HTML ---------"
 );
 console.log(document.title); // -> Javascript-Course
 document.title = "welcom to Javascript-Course";
-console.log("--------- 38. document.head:  ---------");
-console.log(document.head); // -> <head>...</head>
-// <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-const meta = document.createElement("meta");
-meta.setAttribute("name", "viewport");
-meta.setAttribute("content", "width=device-width, initial-scale=1.0"); // width=device-width: lấy chiều rộng của màn hình
-// initial-scale=1.0: lấy chiều cao của màn hình
-// cách thứ 1
-// document.head.appendChild(meta);
-// cách thứ 2 .appendChild(meta)
-const head = document.getElementsByTagName("head");
-head[0].appendChild(meta);
-document.head.appendChild(meta);
+console.log("--------- 38. document.head ---------");
+console
