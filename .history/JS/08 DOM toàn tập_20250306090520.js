@@ -621,10 +621,10 @@ function log(value) {
     console.log(value);
 }
 const boxed = document.querySelector(".boxed"); // -> <div class="boxed">...</div>
-log(boxed.offsetWidth); // -> 200 lấy độ rộng của phần tử
-log(boxed.offsetHeight); // -> 200 lấy chiều cao của phần tử
-log(boxed.offsetLeft); // -> 0 lấy vị trí trái của phần tử
-log(boxed.offsetTop); // -> 208 lấy vị trí trên của phần tử
+log(boxed.offsetWidth); // -> 200 độ rộng của phần tử
+log(boxed.offsetHeight); // -> 200 chiều cao của phần tử
+log(boxed.offsetLeft); // -> 0 vị trí trái của phần tử
+log(boxed.offsetTop); // -> 208 vị trí trên của phần tử
 log(boxed.offsetParent); // -> <body>...</body> lấy phần tử của cha để lấy giá trị phần tử cha
 //
 //
@@ -632,61 +632,9 @@ log(boxed.offsetParent); // -> <body>...</body> lấy phần tử của cha đ�
 //  Bài 141: Client
 console.log("--------- *** Bài 141: Client  *** ---------");
 console.log(
-    "--------- 32.  clientWidth, clientHeight, clientLeft, clientTop,  ---------"
+    "--------- 31.  clientWidth, clientHeight, clientLeft, clientTop,  ---------"
 );
-log(boxed.clientWidth); // -> 190 lấy chiều rộng bao gồm padding trừ border
-log(boxed.clientHeight); // -> 190 lấy chiều cao bao gồm padding trừ border
-log(boxed.clientLeft); // -> 5 lấy vị trí trái bao gồm border
-log(boxed.clientTop); // -> 5 lấy vị trí trên bao gồm border
-//
-//
-// *** *** *** *** ***
-//  Bài 142: Window
-console.log("--------- *** Bài 142: Window  *** ---------");
-console.log(
-    "--------- 33. Window.innerWidth, Window.innerHeight , Window.outerWidth, Window.outerHeight  ---------"
-);
-log(window.innerHeight); // -> 911 lý chiều cao cua man hinh
-log(window.outerHeight); // -> 1032 lý chiều cao cua man <hinh></hinh>
-log(window.innerWidth); // -> 1146 lấy chieur rong cua man hinh
-log(window.outerWidth); // -> 1920 lý chieur rong cua man <hinh></hinh>
-//
-//
-// *** *** *** *** ***
-//  Bài 143: getBoundingClientRect
-console.log("--------- *** Bài 143: getBoundingClientRect  *** ---------");
-console.log(
-    "--------- 34. selectors.getBoundingClientRect(): lấy ra vị trí (tọa độ kích thước) của phần tử ---------"
-);
-log(boxed.getBoundingClientRect()); //DOMRect {x: 0, y: 208, width: 200, height: 200, top: 208, …} bottom: 408, height: 200, left: 0, right:200, top: 208, width: 200, x: 0, y: 208.
-// left, x: vị trí của khối so với bên trái
-// top, y: vị trí của khối so với bên trên
-// width, height: chieur rong, chiều cao
-// right, bottom: vị trí của khối so với bên phát
-// botton: chiều cao của khối + top
-// right: chiều rộng của khối + left
-// width: chiều rộng
-// height: chiều cao
-//
-//
-// *** *** *** *** ***
-// Bài 144: NodeList vs HTMLCollection
-console.log("--------- *** Bài 144: NodeList vs HTMLCollection  *** ---------");
-console.log(
-    "--------- 35. Sự khác nhau giữa NodeList và HTMLCollection ---------"
-);
-console.log("--------- HTMLCollection ---------");
-const li1 = document.getElementsByTagName("li");
-console.log(li1); //  -> HTMLCollection(5) [li.item, li.item, li.item, li.item, li.item]
-console.log("---------  NodeList  ---------");
-const li2 = document.querySelectorAll("li");
-console.log(li2); // -> NodeList(5) [li.item, li.item, li.item, li.item, li.item]
-// Điểm giống: có thể tru cập bằng index,có độ(length) cơ bản, giống mảng nhưng ko hẳn làm mảng, tức là ko sử dụng được những phương thức đã học như: pop, push, shift, unshift, reverse, sort, splice, join, slice, indexOf, lastIndexOf, forEach, map, filter, reduce, find, findIndex, ...
-// HTML Collection: ko sử dụng được forEach
-// NodeList: sử dụng được forEach
-for (let i = 0; i < li1.length; i++) {
-    log(li1[i]);
-}
-for (let i = 0; i < li2.length; i++) {
-    log(li2[i]);
-}
+log(boxed.clientWidth); // -> 190 chiều rộng bao gồm padding trừ border
+log(boxed.clientHeight); // -> 190 chiều cao bao gồm padding
+log(boxed.clientLeft); // -> 5 chiều rộng bao gồm border
+log(boxed.clientTop); // -> chiều cao bao gồm border

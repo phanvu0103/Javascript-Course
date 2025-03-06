@@ -685,8 +685,8 @@ console.log(li2); // -> NodeList(5) [li.item, li.item, li.item, li.item, li.item
 // HTML Collection: ko sử dụng được forEach
 // NodeList: sử dụng được forEach
 for (let i = 0; i < li1.length; i++) {
-    log(li1[i]);
+    log(li[i]);
 }
-for (let i = 0; i < li2.length; i++) {
-    log(li2[i]);
+for (let i = 0; i < li.length; i++) {
+    log(li[i]);
 }

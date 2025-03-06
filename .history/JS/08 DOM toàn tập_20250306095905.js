@@ -681,12 +681,6 @@ console.log(li1); //  -> HTMLCollection(5) [li.item, li.item, li.item, li.item, 
 console.log("---------  NodeList  ---------");
 const li2 = document.querySelectorAll("li");
 console.log(li2); // -> NodeList(5) [li.item, li.item, li.item, li.item, li.item]
-// Điểm giống: có thể tru cập bằng index,có độ(length) cơ bản, giống mảng nhưng ko hẳn làm mảng, tức là ko sử dụng được những phương thức đã học như: pop, push, shift, unshift, reverse, sort, splice, join, slice, indexOf, lastIndexOf, forEach, map, filter, reduce, find, findIndex, ...
-// HTML Collection: ko sử dụng được forEach
-// NodeList: sử dụng được forEach
-for (let i = 0; i < li1.length; i++) {
-    log(li1[i]);
-}
-for (let i = 0; i < li2.length; i++) {
-    log(li2[i]);
-}
+// Điểm giống: có thể tru cập bằng index,có độ(length) cơ bản, giống mảng nhưng ko hẳn làm mảng, tức là ko sử dụng được những phương thức đã học như: pop, push, shift, unshift, reverse, sort, splice, join, slice, indexOf, lastIndexOf, forEach, map, filter, reduce, find, findIndex, ... 
+// HTML Collection: ko sử dụng được forEach,
+// NodeList: sử dụng được forEach,
