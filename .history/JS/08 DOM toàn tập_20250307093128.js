@@ -694,7 +694,7 @@ for (let i = 0; i < li2.length; i++) {
 //
 //
 // *** *** *** *** ***
-//
+// 
 console.log(
     "--------- *** Bài 145: parentNode vs parentElement  *** ---------"
 );
@@ -734,5 +734,7 @@ document.head.appendChild(meta);
 //
 //
 // *** *** *** *** ***
-// Bài 147: insertBefore.
-console.log("--------- *** Bài 147: insertBefore  *** ---------");
+// Bài 147: insertBefore.this
+console.log(
+    "--------- *** Bài 147: insertBefore  *** ---------"
+);
