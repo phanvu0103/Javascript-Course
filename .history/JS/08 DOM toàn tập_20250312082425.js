@@ -762,19 +762,7 @@ li3.forEach((item) => item);
 // [...HTMLCOLLECT], [...NodeList]
 [...li3].forEach((item) => item);
 console.log(li3);
-console.log(
-    "--------- 41. 4 thẻ đặc biệt trong DOM: Html Body Head Title  ---------"
-);
+console.log("--------- 41. 4 thẻ đặc biệt trong  ---------");
+
 // Html body head title
-console.log("--------- html: document.documentElement ---------");
-
-// html: document.documentElement
-console.log("---------  body: document.body ---------");
-
-// body: document.body
-console.log("--------- head: document.head ---------");
-
-// head: document.head
-console.log("--------- title: document.title ---------");
-
-// title: document.title
+// 

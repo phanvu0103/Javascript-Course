@@ -742,7 +742,7 @@ console.log(
 );
 // parentNode.insertBefore(newNode, existingNode)
 const ul = document.querySelector("ul");
-document.body.insertBefore(ul, document.querySelector("h3"));
+document.body.insertBefore(ul, document.body("h3"));
 
 //
 //
@@ -751,8 +751,8 @@ document.body.insertBefore(ul, document.querySelector("h3"));
 console.log("--------- *** Bài 148: removeChild  *** ---------");
 console.log("--------- 40. replaceChild  ---------");
 // parentNode.replaceChild(newNode, oldNode);
-const span1 = document.createElement("span1");
-span1.textContent = "abc";
+const span1 = document.querySelector("span1");
+span.textContent = "abc";
 document.body.replaceChild(span, document.querySelector(".boxed"));
 // convert HTML colection, NodeList to array
 const li3 = document.querySelectorAll("li");
@@ -760,21 +760,4 @@ console.log(li3);
 li3.forEach((item) => item);
 // Array.from(HTML collection or NodeList)
 // [...HTMLCOLLECT], [...NodeList]
-[...li3].forEach((item) => item);
-console.log(li3);
-console.log(
-    "--------- 41. 4 thẻ đặc biệt trong DOM: Html Body Head Title  ---------"
-);
-// Html body head title
-console.log("--------- html: document.documentElement ---------");
-
-// html: document.documentElement
-console.log("---------  body: document.body ---------");
-
-// body: document.body
-console.log("--------- head: document.head ---------");
-
-// head: document.head
-console.log("--------- title: document.title ---------");
-
-// title: document.title
+[...li].forEach((item) => item);

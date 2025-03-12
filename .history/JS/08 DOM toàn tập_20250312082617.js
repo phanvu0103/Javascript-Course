@@ -772,9 +772,9 @@ console.log("--------- html: document.documentElement ---------");
 console.log("---------  body: document.body ---------");
 
 // body: document.body
-console.log("--------- head: document.head ---------");
+console.log("---------  ---------");
 
 // head: document.head
-console.log("--------- title: document.title ---------");
+console.log("---------  ---------");
 
 // title: document.title

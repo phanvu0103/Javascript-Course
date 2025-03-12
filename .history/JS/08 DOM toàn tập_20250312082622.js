@@ -775,6 +775,6 @@ console.log("---------  body: document.body ---------");
 console.log("--------- head: document.head ---------");
 
 // head: document.head
-console.log("--------- title: document.title ---------");
+console.log("---------  ---------");
 
 // title: document.title
