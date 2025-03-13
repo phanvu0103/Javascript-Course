@@ -52,15 +52,9 @@ span.addEventListener(
         capture: true,
     }
 );
-span.addEventListener(
-    "click",
-    function () {
-        console.log("Click span 1");
-    },
-    {
-        capture: true,
-    }
-),
+span.addEventListener("click", function () {
+    console.log("Click span 1");
+},),
     document.body.addEventListener(
         "click",
         function () {
@@ -83,4 +77,4 @@ span.addEventListener(
 // *** *** *** *** ***
 // Bài 152: Capturing
 console.log("--------- *** Bài 152: Capturing  *** ---------");
-console.log("--------- apturing ngược lại bubling ---------");
+console.log("---------  ---------");

@@ -27,10 +27,7 @@ function handleclick() {
     console.log("Click button");
 }
 
-button.addEventListener("click", handleclick, {
-    capture: true,
-});
-
+button.addEventListener("click", handleclick);
 // lỗi sai khi dùng function vào eventListener
 // button.addEventListener("click", handleclick());
 //
@@ -42,35 +39,16 @@ console.log("--------- *** Bài 151: Bubbling  *** ---------");
 // bubbling: nổi bọt
 console.log("--------- 04. bubbling ---------");
 // event.stopPropagation()
-span.addEventListener(
-    "click",
-    function (e) {
-        e.stopImmediatePropagation();
-        console.log("Click span");
-    },
-    {
-        capture: true,
-    }
-);
-span.addEventListener(
-    "click",
-    function () {
-        console.log("Click span 1");
-    },
-    {
-        capture: true,
-    }
-),
-    document.body.addEventListener(
-        "click",
-        function () {
-            console.log("Click body");
-        },
-        {
-            capture: true,
-        }
-    );
-// => Click span, Click body
+span.addEventListener("click", function (e) {
+    e.stopImmediatePropagation();
+    console.log("Click span");
+});
+span.addEventListener("click", function () {
+    console.log("Click span 1");
+},
+document.body.addEventListener("click", function () {
+    console.log("Click body");
+}); // => Click span, Click body
 // Click span
 // Click <button></button>
 // Click body
@@ -83,4 +61,3 @@ span.addEventListener(
 // *** *** *** *** ***
 // Bài 152: Capturing
 console.log("--------- *** Bài 152: Capturing  *** ---------");
-console.log("--------- apturing ngược lại bubling ---------");

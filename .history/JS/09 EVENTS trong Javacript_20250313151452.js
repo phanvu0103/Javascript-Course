@@ -83,4 +83,4 @@ span.addEventListener(
 // *** *** *** *** ***
 // Bài 152: Capturing
 console.log("--------- *** Bài 152: Capturing  *** ---------");
-console.log("--------- apturing ngược lại bubling ---------");
+console.log("--------- apturing ngược lạibu ---------");
