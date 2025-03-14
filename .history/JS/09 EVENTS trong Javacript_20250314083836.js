@@ -87,8 +87,8 @@ console.log("--------- Capturing ngược lại bubling ---------");
 //
 //
 // *** *** *** *** ***
-// Bài 153: target vs currentTarget
-console.log("--------- *** Bài 153: target vs currentTarget  *** ---------");
+// 153: target vs currentTarget
+console.log("--------- *** 153: target vs currentTarget  *** ---------");
 // target: phần tử thực sự được click
 // currentTarget: phần tử mà eventListener được gắn
 console.log("--------- 05. target vs currentTarget ---------");
@@ -104,10 +104,4 @@ button.addEventListener("click", function (e) {
 //
 // *** *** *** *** ***
 // Bài 154: preventDefault
-console.log("--------- *** Bài 154: preventDefault  *** ---------");
-console.log("--------- 06. preventDefault ---------");
-const a = document.querySelector(".link");
-link.addEventListener("click", function (e) {
-    e.preventDefault();
-    console.log("Click My");
-});
+console.log("--------- ***  154: preventDefault  *** ---------");

@@ -52,24 +52,24 @@ span.addEventListener(
         capture: true,
     }
 );
-// span.addEventListener(
-//     "click",
-//     function () {
-//         console.log("Click span 1");
-//     },
-//     {
-//         capture: true,
-//     }
-// ),
-//     document.body.addEventListener(
-//         "click",
-//         function () {
-//             console.log("Click body");
-//         },
-//         {
-//             capture: true,
-//         }
-//     );
+span.addEventListener(
+    "click",
+    function () {
+        console.log("Click span 1");
+    },
+    {
+        capture: true,
+    }
+),
+    document.body.addEventListener(
+        "click",
+        function () {
+            console.log("Click body");
+        },
+        {
+            capture: true,
+        }
+    );
 // => Click span, Click body
 // Click span
 // Click <button></button>
@@ -87,27 +87,5 @@ console.log("--------- Capturing ngược lại bubling ---------");
 //
 //
 // *** *** *** *** ***
-// Bài 153: target vs currentTarget
-console.log("--------- *** Bài 153: target vs currentTarget  *** ---------");
-// target: phần tử thực sự được click
-// currentTarget: phần tử mà eventListener được gắn
-console.log("--------- 05. target vs currentTarget ---------");
-button.addEventListener("click", function (e) {
-    console.log(e.target);
-    // e.target: nó sẽ chọn chính xác element mà mình click
-    console.log(e.currentTarget);
-    // e.currentTarget: nó sẽ chọn phần tử mà mình click vào nó(button)
-});
-// <span>Click me</span>
-// <button class="button">Click me <span>Click me</span></button>
-//
-//
-// *** *** *** *** ***
-// Bài 154: preventDefault
-console.log("--------- *** Bài 154: preventDefault  *** ---------");
-console.log("--------- 06. preventDefault ---------");
-const a = document.querySelector(".link");
-link.addEventListener("click", function (e) {
-    e.preventDefault();
-    console.log("Click My");
-});
+// 153: target vs currentTarget
+console.log("--------- *** 153: target vs currentTarget  *** ---------");

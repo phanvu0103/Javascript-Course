@@ -108,6 +108,6 @@ console.log("--------- *** Bài 154: preventDefault  *** ---------");
 console.log("--------- 06. preventDefault ---------");
 const a = document.querySelector(".link");
 link.addEventListener("click", function (e) {
-    e.preventDefault();
+    evnet1.preventDefault();
     console.log("Click My");
 });

@@ -106,8 +106,8 @@ button.addEventListener("click", function (e) {
 // Bài 154: preventDefault
 console.log("--------- *** Bài 154: preventDefault  *** ---------");
 console.log("--------- 06. preventDefault ---------");
-const a = document.querySelector(".link");
-link.addEventListener("click", function (e) {
+const a = document.querySelector("a");
+a.addEventListener("click", function (e) {
     e.preventDefault();
-    console.log("Click My");
+    console.log("Click a");
 });
