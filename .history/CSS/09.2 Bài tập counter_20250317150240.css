@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* using rem unit */
+html {
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.counter-number {
+    padding: 20px;
+    color: rgb(27, 35, 153);
+    /* background-color: #ffa400; */
+    border: 0;
+    margin: 50px auto;
+    display: inline-flex;
+}
+
+.counter {
+    padding: 20px;
+    color: white;
+    background-color: #ffa400;
+    border: 0;
+    margin: 50px auto;
+    display: inline-flex;
+}
