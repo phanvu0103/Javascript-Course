@@ -114,5 +114,5 @@ link.addEventListener("click", function (e) {
 //
 //
 // *** *** *** *** ***
-// Bài 155: Bài tập Random color
-console.log("--------- *** Bài 155: Bài tập Random color  *** ---------");
+// Bài 154: preventDefault
+console.log("--------- *** Bài 154: preventDefault  *** ---------");
