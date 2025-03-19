@@ -166,8 +166,3 @@ console.log("--------- *** Bài 160: Bài tập toggle menu phần 2  *** ------
 // *** *** *** *** ***
 // Bài 161: Bài tập tab menu phần 1
 console.log("--------- *** Bài 161: Bài tập tab menu phần 1  *** ---------");
-//
-//
-// *** *** *** *** ***
-// Bài 162: Bài tập tab menu phần 2
-console.log("--------- *** Bài 162: Bài tập tab menu phần 2  *** ---------");

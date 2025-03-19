@@ -9,7 +9,7 @@ function handleTabClick(event) {
     event.target.classList.add("active");
     const tabNumber = parseInt(event.target.dataset.tab);
     [...tabContent].forEach((item) => item.classList.remove("active"));
-    [...tabContent][tabNumber - 1].classList.add("active");
+    [...tabContent][tabI - 1].classList.add("active");
 
     // const tabContentItems = document.querySelectorAll(".tab-content-item");
     // const tabContent = document.querySelector(`#${event.target.dataset.id}`);

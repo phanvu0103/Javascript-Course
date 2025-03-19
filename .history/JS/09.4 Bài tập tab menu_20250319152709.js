@@ -7,9 +7,10 @@ function handleTabClick(event) {
     [...tabItems].forEach((item) => item.classList.remove("active")); // xóa trước khi thêm add active
     // sau đó add các class active vào hiện tại
     event.target.classList.add("active");
-    const tabNumber = parseInt(event.target.dataset.tab);
+    const tabNumber = event.target.dataset.tab;
     [...tabContent].forEach((item) => item.classList.remove("active"));
-    [...tabContent][tabNumber - 1].classList.add("active");
+    [...tabContent][...tabItems -1].
+    console.log(tabNumber);
 
     // const tabContentItems = document.querySelectorAll(".tab-content-item");
     // const tabContent = document.querySelector(`#${event.target.dataset.id}`);
