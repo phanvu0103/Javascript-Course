@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* using rem unit */
+html {
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.tab-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.tab-item {
+    cursor: pointer;
+    padding: 1.2rem 2rem;
+    border-radius: 5rem;
+    color: #818e9b;
+    border-color: #f4f5f7;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 500;
+    flex: 1;
+}
+
+.tab-item.active {
+    color: white;
+    background-color: #2979ff;
+    pointer-events: none;
+}
+
+.tab-item:not(:first-child) {
+    margin-left: 1.5rem;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.post-title {
+    display: flex;
+    align-items: center;
+}
+
+.post:not(:first-child) {
+    margin-bottom: 2rem;
+}
+
+.post-title {
+    color: #4e4f51;
+    font-weight: 300;
+    
+}
