@@ -7,17 +7,9 @@ function handleTabClick(event) {
     [...tabItems].forEach((item) => item.classList.remove("active")); // xóa trước khi thêm add active
     // sau đó add các class active vào hiện tại
     event.target.classList.add("active");
-    const tabNumber = parseInt(event.target.dataset.tab); // dùng parseInt để thay đổi string sang number
-    // [...tabContent].forEach((item) => item.classList.remove("active")); // -1 de lay index cua tab content tuong ung nhưng thay đổi thứ tự thì ko đúng như mình html đặt ra nên mình thê dấu {} sau [...tabContent].forEach((item) =>
-    [...tabContent].forEach((item) => {
-        item.classList.remove("active");
-        if (item.getAttribute("data-tab") === tabNumber) {
-            item.classList > add("active"); // nếu bỏ parseInt thì trở lại string thì nó bằng data-tab="1" nên phải so sánh kiểu string
-        }
-    });
-
-    // xóa trước khi thêm add active
-    [...tabContent][tabNumber - 1].classList.add("active");
+    const tabNumber = parseInt(event.target.dataset.tab);
+    [...tabContent].forEach((item) => item.classList.remove("active"));
+    // [...tabContent][tabNumber - 1].classList.add("active"); // -1 de lay index cua tab content tuong ung nhưng 
 
     // const tabContentItems = document.querySelectorAll(".tab-content-item");
     // const tabContent = document.querySelector(`#${event.target.dataset.id}`);

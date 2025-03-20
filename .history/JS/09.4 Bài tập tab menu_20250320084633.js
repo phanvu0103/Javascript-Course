@@ -12,12 +12,12 @@ function handleTabClick(event) {
     [...tabContent].forEach((item) => {
         item.classList.remove("active");
         if (item.getAttribute("data-tab") === tabNumber) {
-            item.classList > add("active"); // nếu bỏ parseInt thì trở lại string thì nó bằng data-tab="1" nên phải so sánh kiểu string
+            item.classList > add("active"); // nếu bỏ parseInt thì trở lại string 
         }
     });
 
     // xóa trước khi thêm add active
-    [...tabContent][tabNumber - 1].classList.add("active");
+    // [...tabContent][tabNumber - 1].classList.add("active");
 
     // const tabContentItems = document.querySelectorAll(".tab-content-item");
     // const tabContent = document.querySelector(`#${event.target.dataset.id}`);

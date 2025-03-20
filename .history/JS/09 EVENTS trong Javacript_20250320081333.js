@@ -174,10 +174,5 @@ console.log("--------- *** Bài 162: Bài tập tab menu phần 2  *** ---------
 //
 //
 // *** *** *** *** ***
-// Bài 163: Bài tập tab menu phần 3
-console.log("--------- *** Bài 163: Bài tập tab menu phần 3  *** ---------");
-//
-//
-// *** *** *** *** ***
-// Bài 164: Bài tập accordion phần 1
-console.log("--------- *** Bài 164: Bài tập accordion phần 1  *** ---------");
+// Bài 163: Bài tập tab menu phần 2
+console.log("--------- *** Bài 163: Bài tập tab menu phần 2  *** ---------");

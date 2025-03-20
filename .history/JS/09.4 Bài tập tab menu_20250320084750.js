@@ -17,7 +17,7 @@ function handleTabClick(event) {
     });
 
     // xóa trước khi thêm add active
-    [...tabContent][tabNumber - 1].classList.add("active");
+    // [...tabContent][tabNumber - 1].classList.add("active");
 
     // const tabContentItems = document.querySelectorAll(".tab-content-item");
     // const tabContent = document.querySelector(`#${event.target.dataset.id}`);
