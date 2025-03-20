@@ -187,5 +187,5 @@ console.log("--------- *** Bài 164: Bài tập accordion phần 1  *** --------
 console.log("--------- *** Bài 165: Bài tập accordion phần 2  *** ---------");
 //
 // *** *** *** *** ***
-// Bài 166: Bài tập accordion phần 3
-console.log("--------- *** Bài 166: Bài tập accordion phần 3  *** ---------");
+// Bài 16: Bài tập accordion phần 2
+console.log("--------- *** Bài 16: Bài tập accordion phần 2  *** ---------");
