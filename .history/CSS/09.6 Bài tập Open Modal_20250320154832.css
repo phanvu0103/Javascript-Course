@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* using rem unit */
+html {
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.button {
+    display: block;
+    width: 150px;
+    border: 0;
+    background-color: #07a787;
+    color: white;
+    padding: 15px;
+    margin: 15px auto;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: zoom-out;
+    padding: 20px;
+}
+.modal-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.modal-content {
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    position: relative;
+    z-index: 10;
+    padding: 30px;
+    cursor: a;
+}
+.modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 100rem;
+    color: white;
+    background-color: #eee;
+    padding: 8px;
+    transform: translate(50%, -50%);
+}
+.modal-main {
+    overscroll-behavior-y: contain;
+}
