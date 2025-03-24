@@ -32,7 +32,6 @@ document.body.addEventListener("click", function (event) {
         const modal = event.target.parentNode.parentNode; // khai báo modal là thẻ cha của thẻ cha của thẻ input
         modal.parentNode.removeChild(modal); // remove modal dấu X
     } else if (event.target.matches(".modal")) {
-        modal = event.target; // Assign the modal content(Chỉ định nội dung phương thức)
-        event.target.parentNode.removeChild(event.target); // remove modal ở trong modal dấu X và nội dung
+        event.target.parentNode..removeChild(event.target); // remove modal ở trong modal dấu X và nội dung
     }
 });

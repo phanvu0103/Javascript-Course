@@ -195,5 +195,5 @@ console.log("--------- *** Bài 166: Bài tập accordion phần 3  *** --------
 console.log("--------- *** 167: Bài tập open modal phần 1  *** ---------");
 //
 // *** *** *** *** ***
-//  Bài 168: Bài tập open modal phần 2
-console.log("--------- *** 168: Bài tập open modal phần 2  *** ---------");
+//  bài167: Bài tập open modal phần 1
+console.log("--------- *** 167: Bài tập open modal phần 1  *** ---------");
