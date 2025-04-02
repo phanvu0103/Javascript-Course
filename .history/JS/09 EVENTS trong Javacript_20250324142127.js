@@ -199,5 +199,5 @@ console.log("--------- *** 167: Bài tập open modal phần 1  *** ---------");
 console.log("--------- *** 168: Bài tập open modal phần 2  *** ---------");
 //
 // *** *** *** *** ***
-//  Bài 169: Bài tập lightbox phần 1
-console.log("--------- *** 169: Bài tập lightbox phần 1  *** ---------");
+//  Bài 168: Bài tập open modal phần 2
+console.log("--------- *** 168: Bài tập open modal phần 2  *** ---------");
