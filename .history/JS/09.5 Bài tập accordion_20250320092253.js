@@ -1,1 +1,0 @@
-const accordionHeaders = d
