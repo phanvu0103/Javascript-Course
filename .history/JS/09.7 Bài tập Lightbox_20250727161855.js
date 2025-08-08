@@ -33,7 +33,6 @@ document.body.addEventListener("click", function (e) {
     if (e.target.matches(".lightbox-image")) {
         // remove lightbox
         e.target.parentNode.parentNode.removeChild(e.target.parentNode);
-        //  remove lightbox content
-        e.target.parentNode.removeChild(e.target.parentNode);
+        //  remove lightbox 
     }
 });

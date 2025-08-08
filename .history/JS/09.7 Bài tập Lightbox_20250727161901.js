@@ -34,6 +34,6 @@ document.body.addEventListener("click", function (e) {
         // remove lightbox
         e.target.parentNode.parentNode.removeChild(e.target.parentNode);
         //  remove lightbox content
-        e.target.parentNode.removeChild(e.target.parentNode);
+        
     }
 });
